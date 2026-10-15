@@ -1,14 +1,14 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "date": "2026-10-15",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.6/LoonarHisobot_1.0.6.zip",
-  "sha256": "00e929af643690f2add18b531b7282482d16122a8f0724ec3f76985f43bcea63",
-  "size": 105666471,
-  "notes": "Sinov yangilanishi",
-  "sig": "cLZ9eHa1ERzKEg9VTBOflCQpGXwNC4k9FmhUGHWx\u002BcD/1b/sjqjRKjQrZ8kpjQSKIv6PlbPi9\u002B1frVfpd5tLxw==",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.7/LoonarHisobot_1.0.7.zip",
+  "sha256": "799f61a0be5e291fe2cc4225f7f657486aeccba17a4c6caf8f5b11e6e08f18b7",
+  "size": 105666698,
+  "notes": "qungiroqcha uzgardi asosan",
+  "sig": "SO/0pDnKHTNABpw6vmXCwwzrgeLgcfW0f1ErYMSpb\u002BI4HsouIK7A3T0SMcJy8nX9ro2mhiK6xPGdXQVC6veWXw==",
   "news": [],
-  "SignedText": "1.0.6|00e929af643690f2add18b531b7282482d16122a8f0724ec3f76985f43bcea63|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.6/LoonarHisobot_1.0.6.zip",
-  "Parsed": "1.0.6",
-  "IsNewer": true,
+  "SignedText": "1.0.7|799f61a0be5e291fe2cc4225f7f657486aeccba17a4c6caf8f5b11e6e08f18b7|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.7/LoonarHisobot_1.0.7.zip",
+  "Parsed": "1.0.7",
+  "IsNewer": false,
   "SignatureValid": true
 }
