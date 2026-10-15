@@ -1,14 +1,14 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "date": "2026-10-15",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.8/LoonarHisobot_1.0.8.zip",
-  "sha256": "252f94546ef9960fb1ba8e734efdaa9f401a486b5e0516fd36388af1134d3a17",
-  "size": 105668365,
-  "notes": "Loonar Hisobot 1.0.8",
-  "sig": "NbWpZCfgH0T9CaSn5WX93Hv2gGuzyA62GrQlPWqnsovr80k7l5P5xCHiyVff01xCBv4xoAciHR5cdQoaqvO4fg==",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.9/LoonarHisobot_1.0.9.zip",
+  "sha256": "0d2a02c38bb78d49b39ed43d6b840144942bb9b0cc24e459ef0cf97b423bfde2",
+  "size": 105672398,
+  "notes": "- Yangilanish ancha tezroq yuklanadi (fayl bir necha bo\u0027lakda parallel yuklab olinadi)\r\n- \u0022Parolni unutdingizmi?\u0022 kodida endi mijoz ID si bor \u2014 Loonar X parolingizni tezroq tiklaydi\r\n- Litsenziya oynasida Mijoz ID ko\u0027rsatiladi",
+  "sig": "McQx/LOqS2EjRR\u002BYTeOPLeZMHNb3RjOQQ8SSo5KtCwqGOILoarCK\u002BGL8w4Sz0my3viSCGqkfnP5OUEdz2LEeEg==",
   "news": [],
-  "SignedText": "1.0.8|252f94546ef9960fb1ba8e734efdaa9f401a486b5e0516fd36388af1134d3a17|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.8/LoonarHisobot_1.0.8.zip",
-  "Parsed": "1.0.8",
+  "SignedText": "1.0.9|0d2a02c38bb78d49b39ed43d6b840144942bb9b0cc24e459ef0cf97b423bfde2|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.9/LoonarHisobot_1.0.9.zip",
+  "Parsed": "1.0.9",
   "IsNewer": false,
   "SignatureValid": true
 }
