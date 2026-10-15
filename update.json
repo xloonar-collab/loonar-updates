@@ -12,11 +12,41 @@
     "slogan": "Do\u0027kon, kafe va restoranlarni avtomatlashtirish",
     "about": "Loonar X \u2014 savdo nuqtalarini avtomatlashtirish, POS qurilmalar, kompyuter va POS ta\u0027miri.",
     "hours": "9:00-18:00",
-    "contacts": [],
-    "updated": "2026-10-15 17:25"
+    "contacts": [
+      {
+        "type": "phone",
+        "label": "",
+        "value": "\u002B998903610700",
+        "Icon": "\uD83D\uDCDE",
+        "Link": "tel:\u002B998903610700"
+      },
+      {
+        "type": "phone",
+        "label": "",
+        "value": "\u002B998200110014",
+        "Icon": "\uD83D\uDCDE",
+        "Link": "tel:\u002B998200110014"
+      },
+      {
+        "type": "telegram",
+        "label": "",
+        "value": "@loonar_x",
+        "Icon": "\u2708",
+        "Link": "https://t.me/loonar_x"
+      },
+      {
+        "type": "address",
+        "label": "",
+        "value": "Qo\u0060qon shaxar Turkiston ko\u0060chasi",
+        "Icon": "\uD83D\uDCCD",
+        "Link": null
+      }
+    ],
+    "updated": "2026-10-15 17:55"
   },
+  "replies": [],
   "SignedText": "1.0.12|b4ecfc39ace6ac71b9639f62da5af4fe8998d7a30d6dafbccd7209d0fd59c4bf|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.12/LoonarHisobot_1.0.12.zip",
   "Parsed": "1.0.12",
-  "IsNewer": true,
+  "IsNewer": false,
   "SignatureValid": true
 }
