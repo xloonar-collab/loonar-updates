@@ -7,8 +7,16 @@
   "notes": "Loonar Hisobot 1.0.10",
   "sig": "OdvbHc/UHzawdVieF7JV5qQIw1pVEENRGD8lTZWEHF6uOrqL7NQYe0\u002BItf7WHYwc6Ok46kS9fj1VJc/YZuWtmw==",
   "news": [],
+  "company": {
+    "name": "Loonar X",
+    "slogan": "Do\u0027kon, kafe va restoranlarni avtomatlashtirish",
+    "about": "Loonar X \u2014 savdo nuqtalarini avtomatlashtirish, POS qurilmalar, kompyuter va POS ta\u0027miri.",
+    "hours": "9:00-18:00",
+    "contacts": [],
+    "updated": "2026-10-15 17:25"
+  },
   "SignedText": "1.0.10|71b46d8c5ea428625d4d01c21daeaba2f21cf422a9fee2ea96f4b7c8eed7a5a7|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.10/LoonarHisobot_1.0.10.zip",
   "Parsed": "1.0.10",
-  "IsNewer": true,
+  "IsNewer": false,
   "SignatureValid": true
 }
