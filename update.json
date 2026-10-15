@@ -1,11 +1,11 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.12",
   "date": "2026-10-15",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.11/LoonarHisobot_1.0.11.zip",
-  "sha256": "d6ad9eafa5070f7d710aefc26d42b9dc738e3de819cb0564dd97eefa1f63868e",
-  "size": 105683315,
-  "notes": "- \u2139 \u0022Biz haqimizda\u0022 tugmasi: Loonar X haqida, telefon raqamlar, Telegram botlar, ish vaqti\r\n- \u2139 oynasidan taklif, talab, muammo yoki savolingizni to\u0027g\u0027ridan-to\u0027g\u0027ri Loonar X ga yuborishingiz mumkin\r\n- \uD83D\uDD14 Qo\u0027ng\u0027iroqchada endi muhim holatlar ham chiqadi: manfiy qoldiq (minusga tushgan tovarlar), muddati yaqin tovarlar, kam qolganlar, shoshilinch qarzlar\r\n- Yangi muhim holat paydo bo\u0027lsa \u2014 qo\u0027ng\u0027iroqcha yonida qisqa xabar chiqadi, bosilsa kerakli bo\u0027limga o\u0027tadi\r\n- Bildirishnomalar oynasi ixcham \u2014 qo\u0027ng\u0027iroqcha ostidan ochiladi\r\n- Yangi versiya har 5 daqiqada tekshiriladi va tezroq yuklanadi\r\n- Kalendar va sana tanlash zamonaviy ko\u0027rinishda",
-  "sig": "Lp2zE7SpzD3oxolwcm1QdH40QoYRh9SWHpf4gUA1P5AC4zg6KIHcnM5hJdrgKaTBmcmq8V45BLtAGfNk98Rbvw==",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.12/LoonarHisobot_1.0.12.zip",
+  "sha256": "b4ecfc39ace6ac71b9639f62da5af4fe8998d7a30d6dafbccd7209d0fd59c4bf",
+  "size": 105688602,
+  "notes": "Loonar Hisobot 1.0.12",
+  "sig": "wGOuvQeZZPKsZoX\u002BjjX6aTM6ByVodygRLtdOawE5KJK00MII2gUfaQyL\u002BMq2Gp0ZlnhvqaS5oIXnJecTvbKMbw==",
   "news": [],
   "company": {
     "name": "Loonar X",
@@ -15,8 +15,8 @@
     "contacts": [],
     "updated": "2026-10-15 17:25"
   },
-  "SignedText": "1.0.11|d6ad9eafa5070f7d710aefc26d42b9dc738e3de819cb0564dd97eefa1f63868e|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.11/LoonarHisobot_1.0.11.zip",
-  "Parsed": "1.0.11",
+  "SignedText": "1.0.12|b4ecfc39ace6ac71b9639f62da5af4fe8998d7a30d6dafbccd7209d0fd59c4bf|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.12/LoonarHisobot_1.0.12.zip",
+  "Parsed": "1.0.12",
   "IsNewer": true,
   "SignatureValid": true
 }
