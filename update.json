@@ -1,14 +1,14 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "date": "2026-10-15",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.9/LoonarHisobot_1.0.9.zip",
-  "sha256": "0d2a02c38bb78d49b39ed43d6b840144942bb9b0cc24e459ef0cf97b423bfde2",
-  "size": 105672398,
-  "notes": "- Yangilanish ancha tezroq yuklanadi (fayl bir necha bo\u0027lakda parallel yuklab olinadi)\r\n- \u0022Parolni unutdingizmi?\u0022 kodida endi mijoz ID si bor \u2014 Loonar X parolingizni tezroq tiklaydi\r\n- Litsenziya oynasida Mijoz ID ko\u0027rsatiladi",
-  "sig": "McQx/LOqS2EjRR\u002BYTeOPLeZMHNb3RjOQQ8SSo5KtCwqGOILoarCK\u002BGL8w4Sz0my3viSCGqkfnP5OUEdz2LEeEg==",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.10/LoonarHisobot_1.0.10.zip",
+  "sha256": "71b46d8c5ea428625d4d01c21daeaba2f21cf422a9fee2ea96f4b7c8eed7a5a7",
+  "size": 105672820,
+  "notes": "Loonar Hisobot 1.0.10",
+  "sig": "OdvbHc/UHzawdVieF7JV5qQIw1pVEENRGD8lTZWEHF6uOrqL7NQYe0\u002BItf7WHYwc6Ok46kS9fj1VJc/YZuWtmw==",
   "news": [],
-  "SignedText": "1.0.9|0d2a02c38bb78d49b39ed43d6b840144942bb9b0cc24e459ef0cf97b423bfde2|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.9/LoonarHisobot_1.0.9.zip",
-  "Parsed": "1.0.9",
-  "IsNewer": false,
+  "SignedText": "1.0.10|71b46d8c5ea428625d4d01c21daeaba2f21cf422a9fee2ea96f4b7c8eed7a5a7|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.10/LoonarHisobot_1.0.10.zip",
+  "Parsed": "1.0.10",
+  "IsNewer": true,
   "SignatureValid": true
 }
