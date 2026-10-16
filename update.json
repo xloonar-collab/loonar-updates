@@ -1,11 +1,11 @@
 {
-  "version": "1.0.12",
-  "date": "2026-10-15",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.12/LoonarHisobot_1.0.12.zip",
-  "sha256": "b4ecfc39ace6ac71b9639f62da5af4fe8998d7a30d6dafbccd7209d0fd59c4bf",
-  "size": 105688602,
-  "notes": "Loonar Hisobot 1.0.12",
-  "sig": "wGOuvQeZZPKsZoX\u002BjjX6aTM6ByVodygRLtdOawE5KJK00MII2gUfaQyL\u002BMq2Gp0ZlnhvqaS5oIXnJecTvbKMbw==",
+  "version": "1.0.13",
+  "date": "2026-10-16",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.13/LoonarHisobot_1.0.13.zip",
+  "sha256": "93b8003538c97bb4bc69987cb0c77f37e9cd76148744db8189fdb0a5e92c043a",
+  "size": 105709380,
+  "notes": "- Mijoz ID endi dasturning sarlavhasida va pastki holat qatorida doim ko\u0027rinadi\r\n- \uD83D\uDD14 Bildirishnoma sozlamalari: qaysi xabarlar ko\u0027rinsin (manfiy qoldiq, muddat, kam qolgan, qarz, yangiliklar), ovoz va qisqa xabar\r\n- \uD83D\uDD14 Yangi xabar kelganda ovozli signal\r\n- Loonar X dan xabarlar: muhim e\u0027lonlar va shaxsiy xabarlar \uD83D\uDD14 va \u2139 oynasida\r\n- Avtomatik faollashtirish: Loonar X kalit bersa, dastur o\u0027zi faollashadi \u2014 kalitni kiritish shart emas\r\n- \u2139 oynasida telefon va Telegram ma\u0027lumotlari ishonchli ko\u0027rinadi\r\n- Telegram bot: yangi kirish kartochkasi, tezkor tugmalar, \u0022\u2139 Loonar X bilan aloqa\u0022 bo\u0027limi\r\n- Kompyuter xarakteristikasi (protsessor, xotira, disk) Loonar X ga yuboriladi \u2014 tezroq yordam berish uchun",
+  "sig": "HFubz8hvU03aFV0qeI6O/IqP2kUsataXponrY0e94EWizCCrwVWT3vQWif9qHwu9n5\u002BmN66JyEr4hAw5x\u002BD/zA==",
   "news": [],
   "company": {
     "name": "Loonar X",
@@ -39,25 +39,25 @@
   "replies": [
     {
       "to": "260f8af22b3d1130",
-      "d": "4NlHE3w0Wbsn3i/2OcSsuKB0PqZVyVZJqDNkt/McrrXvJmWWRx9TkJU2FT52ZsS6cHc\u002BMpP6ib1uYC2\u002BT4zz//X7EMsfv1G3jmOBQVFPcnS56Bm7xtJu4ErTpsnYfXVXSySR6Vo4QykJ\u002BRtQb9EC0CoUCGbCmnjBM\u002B42xkr642uqe/jI6x/OWbKM3wQ63eHAWxwJ3GaAjOv9yqiEPCW4ya5LrL7KoIdR1kNGJh208bTfpusOADPOp7U1yrAD5pFsEl46FadmVrQc5LPw3h4fdUaX4ywnG1wr1IsI9uyyeQ=="
+      "d": "azp1HTpa9/FTFwX\u002BHuPDfucVxDOH6Lk6rCjz22QW7l5Bouw4GJ6esCo3y7CxOQ\u002BCOedStpRLWdvjHcUOcypeSffKe/rj7Q7VcU0qhHgUbeVNo1VcI\u002BTkK9LOb9E\u002BlIZOuuN3XlUL\u002BHGFZJUtmudGh\u002BIKptAgHsoOeo9Lj0ZpgNB6JMTWdxLo2ZK9euP9UpmkyhqduhCPH5PlWZUEs94yCTjy19pyBnC03vDgIZYlbdfrHZJkexGEM1gYGd1pA/zTDyJfq4H0TIMYimXGN5pjk7WNt4/P0EUnwZ9FPi4a/Q=="
     }
   ],
   "keys": [
     {
       "to": "260f8af22b3d1130",
-      "d": "HhW4glzJyMD/Zfv87XpSdphz0FkA/WcRTMjzJEmBO\u002Bc58NNgSTyVz1LezAQL5zB8MpsnKalq2SzT\u002Bl4Y\u002BwPzQZTZqREgCM\u002BBztJcYIVE\u002BcbjUYFeNv3m38HGLHyxEBr/MHEZyCnVsc4cgB\u002BiaMdXTS1R0rduX7C9Jnnzw75G4XLcotCD5ahm669\u002BJoQ2FJQzZXR4RdtMPFpzWRhV4Jan3ck/8z81tlRGPeguX6x\u002BWAd0Jlb0eWQFFRae\u002BX1AWptEog2kqlyZpIfNDzLi62YNNwSxgj0ft8qtsfr4idGEdSBoRo9hwoDWNXCWjJ/KoL/nJnWUBzGHk8IXpCf9uOPy0ih9/UI6nSzGs0Gh0KOavOjAHhxOd8x38ykWzvgUJnTkGYXOko2hBM0M"
+      "d": "9nh37ZDRrDj8JX8B4bcn6dYn74XuhRpQa3IeaPDfmGITruJbZn94MkI21v375jUWDG2KG9t4R1A41yYYofqXWGFUpMxxvCpEUvYdOU\u002B9ny5KIW\u002B1m7btUrlzRs8L18O2U8yNZCk7t7HjIj6D/VCMPI0GGRdqq7a19yRfnSsiW3fuj8T6uvHAxP2huvQcvc43HUsN/VH4FLT\u002Bs6iAA2q11EydWUb5fTLGhoFKIDv4JTwffB\u002BgxPSZApN4MAcCwEoFFd6rWyMRX96\u002BuWw3skFuDSZlnbl5fW39nvCaNgmz0dfo4cqPkz4EGTfh7WAhOekCPnH1YOmJAcBNkVPTIiFNXIelMK4kV7B3FcGVecsftiKhJs/bZ39FLH3BSGSq5/rDdPW0UgkgKBkL"
     },
     {
       "to": "bf620a006aee30f2",
-      "d": "7/iBJ1ClKPfWxyERzhCqWwdm8VJl40L0ZW1YYvMXLj2xSf72Fmwewru\u002BWkGaj82zDM4Suak\u002Bbk6rLpbQl16PUSnZxk4C/D53hGjj09ihQieCHeWyR/7HfNCFeSvWfBjIQz8373uCkfxFS2rhE84Zn7eF7VAUzcL7XfAJx6PlynMkAYXq439MtwhIY8okuxo4/pUpT7Nnn\u002BhZt\u002BOsxSnHHCZWQwJo4gKQF/ZHHM5ND1cofzm3Y3AAsIxbbHgyZza/3ZAGKdseMPCpoXpU/jhePdI/X0qKGXUje3HzMgZiYH8vScA6Lh4HZOvIv3lY3TlQpzy/7OPl2XmIKzZGr4MYJlccS/jXmzoo\u002BJiaf6\u002B4dvMG135i6j4KIIpNuGQV2DD7tYl2jKLy4O/Q"
+      "d": "RE9rvWxV1aQ/Htp\u002Blwrxw8oKFpcfkwGCBywL9pDL9AImhKYtUPhelVzapx\u002BLrmI7rCo34DTFzYslztMTVFSauh2HeULoeYEicxCsk5LfBHWpWpfxVOh6b70VdckXN6K2YAbtAu84YaZCzefsyhqjPLsaXXWnADCg2gxcNILGVkashzkShiEI7vSkawp/Zt23JTtvxsIA11lOSkIku3h6jNBClk/g8J5SUnvmy4QNa9MG7qzhkmQ3eKHNVNOm8M2LJ743BHDq6jFYavcxL2aH5Sg9UCArObUKuJ6Qqk\u002BlGd/Txv4yzIc\u002BY7OnQeAIKZkOZRQVTEwQfm4D4ZgpTqZdQlI4PQv1S1GFj2i\u002B4Lx599XqEWfof01qC1fp8cJdV6hyWOywkcTChF8F"
     },
     {
       "to": "58468c47cec6af6c",
-      "d": "6PP7ESg0Ko14O1ZmB\u002BdPlOHJHt7NpNdJivoTHmKwgvf1sz3Y5xiJuX8MqQUIbXlGfZXRiqc\u002B0nxwqEQxmKnCfFLjh0BCrasuYaw4AaVpFOvhh4/mYZ333e5IDpVcZr8R\u002BiErcVBOkWoglTiPJIBwZyR9k\u002BIZEOu0tm2PvskBTs7NVP/FooFc9rs91NzHmgR67SeBokpRRMSzBVpnZHt0Fwcan5h0oJUk\u002Bcf61LCY/Yf28/iiVcv8xT7Uny5SRS451rfdVpbO5vMXB7GovS6TuJvXEUTq2HRG0YcTQurW\u002B3kUAjTFPQXh/09BIIm/rckjCG/MhnFdWOAjWFURhmuuD/XfZen\u002BlM5MM0xeTGBtligO51kjlS2\u002BEnpOXb\u002BJImQ2AERZ\u002By21kWsp"
+      "d": "RHUC8XmVBcKeEejC/01Ee5FRc6XRmjCBAsegLsXo2h7k1bx/pDb9eGaP6eUkMJNu0RKZoiUXLf8DJU4Txh2LpzhzQB/dqMA9LTjX6vS2cBGlvXu8XaCPFoDQwU/xvFaS0oxv9hhbx1ykE8iSDteWV/b0rNOJPeRM/zMwkVeNW3Cs3Nlq\u002B1jJgndQbsB4OdBgc7HJWTUMLg\u002Btn0\u002BjVtAjM4t5Ajbxfu7vcjdft6qunRCN9wzJxdmcSjXcsokpv/V2Fxv9NNnqUkbLwkKiH6lnhMp27Xvo2MCioQqRT1kcogZhm2Lw034MwXQlgNWap/0\u002BDb/O3O7twIiUlCB2G7Ql74beutkIhyp358I4JC2qmWzat5gf55tc2diQLFUXAE5nfVpteSUFOjgI"
     }
   ],
-  "SignedText": "1.0.12|b4ecfc39ace6ac71b9639f62da5af4fe8998d7a30d6dafbccd7209d0fd59c4bf|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.12/LoonarHisobot_1.0.12.zip",
-  "Parsed": "1.0.12",
-  "IsNewer": false,
+  "SignedText": "1.0.13|93b8003538c97bb4bc69987cb0c77f37e9cd76148744db8189fdb0a5e92c043a|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.13/LoonarHisobot_1.0.13.zip",
+  "Parsed": "1.0.13",
+  "IsNewer": true,
   "SignatureValid": true
 }
