@@ -11,16 +11,67 @@
     "name": "Loonar X",
     "slogan": "Do\u0027kon, kafe va restoranlarni avtomatlashtirish",
     "about": "Loonar X \u2014 savdo nuqtalarini avtomatlashtirish, POS qurilmalar, kompyuter va POS ta\u0027miri.",
-    "hours": "9:00-18:00",
+    "hours": "Du\u2013Pa 09:00\u201318:00 (tushlik 13:00-14:00) \u00B7 Ju 09:00\u201318:00 (tushlik 12:00-14:00) \u00B7 Sha 09:00\u201318:00 (tushlik 13:00-14:00) \u00B7 Yak 10:00\u201316:00 (tushlik 13:00-14:00)",
+    "week": [
+      {
+        "day": 1,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 2,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 3,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 4,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 5,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "12:00-14:00"
+      },
+      {
+        "day": 6,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 7,
+        "open": true,
+        "from": "10:00",
+        "to": "16:00",
+        "break": "13:00-14:00"
+      }
+    ],
     "contacts": [
       {
         "type": "phone",
-        "label": "",
+        "label": "Muminmirzo",
         "value": "\u002B998903610700"
       },
       {
         "type": "phone",
-        "label": "",
+        "label": "Mirzaolim",
         "value": "\u002B998200110014"
       },
       {
@@ -34,34 +85,43 @@
         "value": "Qo\u0060qon shaxar Turkiston ko\u0060chasi"
       }
     ],
-    "updated": "2026-10-16 09:57"
+    "location": {
+      "address": "Qo\u0060qon shaxar Turkiston ko\u0060chasi",
+      "landmark": "",
+      "google": "",
+      "yandex": "",
+      "coords": ""
+    },
+    "qr": "",
+    "qrTitle": "",
+    "updated": "2026-10-16 14:33"
   },
   "replies": [
     {
       "to": "bf620a006aee30f2",
-      "d": "o93/eTpwjD2GmSzvPGD0GJNYv1jQNtEQukg8HlmAy2gl\u002BF9aALE5O5zwlq/oxEcd1ziCmm9f/LSAZg9PYhzwd9vYwBCLTAc6HBuHumFoOAzaW8u/Pp14\u002Be5xEN\u002BpMra\u002BvGs8KWdq2ySwk6hnFib/4WBim9tT2\u002BZsltwfvUk6lgirKWrZYji33KSIEPqUbekZ5lCSzsZH3D1s2hLXbwbI5qweeIS72uU9NBWsRBtfhg=="
+      "d": "cMrKu1U/Bo0WSB/y9hnzlaf7HxWtmkatuVwjV\u002BmzN4sGOcPxN3iu3H6ZVv2iEr7BxoRc6AAaNFoVPtsIIzciKs0DZ6OISx4EvGa0T4MO4pZVX84Gf9sD18EPKm3w6/FsgHvBFldn7KbslqNCD170HtwRiDGuHbeR3Nqh8qvYVYF9LMxcTk75IHQ8AFlURexdhSwBvRxR2LPmaUhGSeaN3OnJK/byKybrfzC4p/A71Q=="
     },
     {
       "to": "260f8af22b3d1130",
-      "d": "5HmnYV5zexWJVndC\u002BVu8igUFt8D\u002BPcB13QAd8iNZT7b3oYYGOxFqyIRwvfw4e7CzahJOB4xqNiDpW38\u002BfIMirwTFy6I3IyMRZAs8VZHJbrDGxSvmJhCDG/cMK6QWFLvqINgMWnduaj\u002BaTaRumXXCI8BSQyiI\u002BKTtRxhPIBe0KmkX00pkcvggMZTDmCIzQa\u002BR/nTbrMukAil0EJMwu7m6V6fEU5glzskIWvFI/xj8fhsq8jsQ650RReHTPrFlshbDl5d\u002B/7YeKLDhVyxURluqlaYzCXAnWJT3k4BxeYgY9Q=="
+      "d": "Mdq2WEaq5UBKr4mXxrCcLoLP9N09rhed/I/D3bUwI689F4pW1pEHlEc2gv/TOyIUUuuIi1FQvgom6C4c4QFQt3kIqDu9tSRhqkKZjTjSwTZ0vcSgMrUJLJt5EDLuqTxnG8RgYLp8dqgPe/ZvyNgovwV7K6JqYdOSX0haAs2b\u002BktmJmFPQgOQGzmN4SLIP1Ko6jNixj3RLrDLDQDCM168FHK9hMLiNncVCp9UF7uX8ZRVdw749bSrA1e5K4P/hBtBxfXZND0fXWdqWToZ2DUh7pcUecSAK0OlQxD4NrZNgQ=="
     }
   ],
   "keys": [
     {
       "to": "260f8af22b3d1130",
-      "d": "3VMvJV\u002BY6l1R0EEkTzumKljhoI2SZJM1pnUCvXl7Lrm3ur19Dub9OJhzVZ1Ng2R5Kofo7dpIJf/EIbD/\u002BOE0DTbfOV03P0yhmr/PtH2Sk4xoolHpYzzQKw62ZzpQlSimvOMO/mwDllzBGOe6y0WkOU5OGEt55Ya/D9Y1ya2bZAHHDuHhdmbGKXEZjVUJPVeFm6xqx8T10OTB5aw6JxGa7uQ\u002BFjDdNO/XsI2H/OsIB8UX1lU/GRepbEoq709d6TFmSzQQR\u002BFzVkFXS4S99C5fbcdKmZgLYawMjVg1gR/WrWkM8KTwsLEd72TTR/\u002BGWrOiU5kSPHsmhJHdq9CqELRA3G/FbD59P/1soegOfJYlI/m62vPHQkb7FXKnQuIIw28tyyzFPNUZL3Nm"
+      "d": "IBhV8/Q2j3xuRmyaecT\u002BKzPfWQnoYoKrtWyjb6u4VEB/T4Zpbvi3yBTCFuRp1VcIYBP\u002BuSzaokr8J/Lc7qcC2anrlR6sRmdkcW3PqQwLhfXu/7wKcL8WZtScedAHYx2CvvUlgihwTo57PC5C91WrICQJD\u002B3ealRyvWqiCuy6GjbbVug\u002BdWQZMxnr\u002BGmmZ7cf7iIrJgEjekSVeE3FtA8dpaBGhJD/W\u002B6Pg6jmEX1h/Vz\u002BdWMhT/sEd6Ny\u002BSuF1EPNpTlBRz2\u002B3CWRUj8eOD58d89MDwupukmeWBmckKXdWo8XK60Vc8qjTZuSwEl340O9shYtVhbybUlCrHvAbZ70khcXfyJUEBDWOWZrYtj9y3Safh4IPyzdJPxNIcmvPFZn8FquNbQ3pxyD"
     },
     {
       "to": "bf620a006aee30f2",
-      "d": "f4TagemhYKs\u002BrBvRljRuimYeCAY9VujZzWYEn10NDgtT3ZzNnuqou2bBKoAVeiOiHvJZzpIQDnOdyDdfzaVG\u002B6v1\u002BFdSBtS6RXuhq\u002Bm/sk9k\u002Bax4Fa2Rlq2QcBpdD\u002BIDPpOaCEcnJsMaTXAfWD22u8fQu9JEiidkNkEI8GshBIEcNZ\u002BfE8pV5gEx2PF5GFqmmossZspFmIDdhRblIE/Umwmo24pArdG0H4WMcxmm4PB1B4A5dua/chq3YecgSzIdLwQeoCvBCSY6K2hdfywUdjCatA\u002BZGkrAJNkGHHgcE4zOIlj\u002BthIaHRP6wVpcqU6tsRcddn6yIr6QHK/BO9Bovgyf8XZ/2H8FaTAO1CbrJqtlJwbQ4HjT/fRYKeNfBhoLTOQpEQXmQEJt"
+      "d": "SVHGXw1Q1Hpd3RUhUBqn0UKgykGf0Ha1fb3RhAT6ONsX\u002Bkah11whZXaZFMDh2RCQ9CA4VGeSGAnub4db6lqr0N1QDsuu1NyyQCfUo2IBnkux9W4ImKhTYOhGerIYXGNj/6zDl9Qc0si0Vai5577LgbR5868ok8S/46m5iFWbQv0JeSCDNCaBRs62JHn48/VNbsn5TJvnZdHKjmxJJVUPMKMsl6XMqC\u002B5d2pTezovUowd6cq\u002Bb/LLO6cPPEyU9Zp2LjkjHwpqmFfZyQOtnPeeZeSLBLQfDcRZhG51WcUVWRZfm2vJ9vdd4Uy0N\u002B2ltr5pwnTomdEK4P155/2\u002BdUw1bY9iee4U\u002BxZ4Eg0hMWs\u002BPlzFH\u002BrEECa25MIzKBFG4JyURwBEaBVTaRpU"
     },
     {
       "to": "58468c47cec6af6c",
-      "d": "y8/gKH\u002BOK6LwY1ujoQ6OcTX8D9Z9zrC4pAyFjryVRj5iI6xABUtWHmBuuEgiv3iWqXFOKXNr9wQRc8VJY7x0/ERuVVglJQ\u002B1jzpdO7pNxU51Tzi7L2DIWwd41nWxJ8TWhj\u002BnjoYR4KKrVc81x4SeK9haRKGPOMdfunzd2rE5paPcOKd/FslhECdzdLsDtuHHMBvJ1mafp\u002BVCBvRHNSkGtS0q4bETSOzhcEis2g3clGxxI/Rzc2Tz6cuujOYiwXUAelOW5e0\u002BFeRIzoUUdZAB\u002BMuIJ5006esUZkol/NvkAO1uYmxeuV/VNzxOmKs6c9twCQQnv87Ij2wNt/bfL7DscYknxbmlvduf9qs9rktrXdOkgKG8Srxh5qldKlxLeFU\u002BdgeMGH9ViSsg"
+      "d": "pOozi35qZAZbTW\u002BAkEemGrtFNnLmux7pwbUYD2ecOEuxrxp6si9IpDnjOLWYBNxmorYELDuJ6I4yKV2qiFZaxJTMjpes5bPnk9pEC5dMQ/xjqVwdbDeCicup0fUjy5janwtg7J\u002B3yME53EJoRc3zRSK/YoG44o\u002BE2XlTeHe7DKCLXtumeie6xrOwYovsSzEkREAzlRcwuhQ4gV7b6ToslUerewgudSLHoEWqfep2lf4Wmp6Rp4QnoLLNl4EqnTfPwglXaAX7EVmQjREhOs5y6A3FFe4je0DrbsBva3FhEoprDobtFLutEQPl5J/7sJhPwxWVb243USYS2U4V4hP/KLzZb/qKVtGcxlqVshmntwjxL/J5vS1/n7jnGUswY6MBr8ncW7r8LJXH"
     }
   ],
   "SignedText": "1.0.13|93b8003538c97bb4bc69987cb0c77f37e9cd76148744db8189fdb0a5e92c043a|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.13/LoonarHisobot_1.0.13.zip",
   "Parsed": "1.0.13",
-  "IsNewer": true,
+  "IsNewer": false,
   "SignatureValid": true
 }
