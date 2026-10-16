@@ -16,38 +16,44 @@
       {
         "type": "phone",
         "label": "",
-        "value": "\u002B998903610700",
-        "Icon": "\uD83D\uDCDE",
-        "Link": "tel:\u002B998903610700"
+        "value": "\u002B998903610700"
       },
       {
         "type": "phone",
         "label": "",
-        "value": "\u002B998200110014",
-        "Icon": "\uD83D\uDCDE",
-        "Link": "tel:\u002B998200110014"
+        "value": "\u002B998200110014"
       },
       {
         "type": "telegram",
         "label": "",
-        "value": "@loonar_x",
-        "Icon": "\u2708",
-        "Link": "https://t.me/loonar_x"
+        "value": "@loonar_x"
       },
       {
         "type": "address",
         "label": "",
-        "value": "Qo\u0060qon shaxar Turkiston ko\u0060chasi",
-        "Icon": "\uD83D\uDCCD",
-        "Link": null
+        "value": "Qo\u0060qon shaxar Turkiston ko\u0060chasi"
       }
     ],
-    "updated": "2026-10-15 18:11"
+    "updated": "2026-10-16 09:57"
   },
   "replies": [
     {
       "to": "260f8af22b3d1130",
-      "d": "NDKcw4yQ1anaEChxniQJVQgJVQsgytUfK0UytyNcLtCusGok4Px1CntJlkeGAWcBogZ7BhiBZd3oBvbEPcA6OHc5bHb/kOgiVOo8B\u002BIaPz2VXUrQPs43ZXSi5/svPbFybEZebWFHKChZA7Q74njvC\u002BWON4sEucid6dHZR1kq0vxB3wKZRc07H7adiuu\u002B7PEcx/DTjC68CGwEP6v50VJVgF0buQEouVRV7K7OqQYBSlAhtgAPgwzT3Qv3qDoJMWtuachPIShuKAkPyM1UFNeeaFn7DEz/B8uOq3JbdZaYvg=="
+      "d": "4NlHE3w0Wbsn3i/2OcSsuKB0PqZVyVZJqDNkt/McrrXvJmWWRx9TkJU2FT52ZsS6cHc\u002BMpP6ib1uYC2\u002BT4zz//X7EMsfv1G3jmOBQVFPcnS56Bm7xtJu4ErTpsnYfXVXSySR6Vo4QykJ\u002BRtQb9EC0CoUCGbCmnjBM\u002B42xkr642uqe/jI6x/OWbKM3wQ63eHAWxwJ3GaAjOv9yqiEPCW4ya5LrL7KoIdR1kNGJh208bTfpusOADPOp7U1yrAD5pFsEl46FadmVrQc5LPw3h4fdUaX4ywnG1wr1IsI9uyyeQ=="
+    }
+  ],
+  "keys": [
+    {
+      "to": "260f8af22b3d1130",
+      "d": "HhW4glzJyMD/Zfv87XpSdphz0FkA/WcRTMjzJEmBO\u002Bc58NNgSTyVz1LezAQL5zB8MpsnKalq2SzT\u002Bl4Y\u002BwPzQZTZqREgCM\u002BBztJcYIVE\u002BcbjUYFeNv3m38HGLHyxEBr/MHEZyCnVsc4cgB\u002BiaMdXTS1R0rduX7C9Jnnzw75G4XLcotCD5ahm669\u002BJoQ2FJQzZXR4RdtMPFpzWRhV4Jan3ck/8z81tlRGPeguX6x\u002BWAd0Jlb0eWQFFRae\u002BX1AWptEog2kqlyZpIfNDzLi62YNNwSxgj0ft8qtsfr4idGEdSBoRo9hwoDWNXCWjJ/KoL/nJnWUBzGHk8IXpCf9uOPy0ih9/UI6nSzGs0Gh0KOavOjAHhxOd8x38ykWzvgUJnTkGYXOko2hBM0M"
+    },
+    {
+      "to": "bf620a006aee30f2",
+      "d": "7/iBJ1ClKPfWxyERzhCqWwdm8VJl40L0ZW1YYvMXLj2xSf72Fmwewru\u002BWkGaj82zDM4Suak\u002Bbk6rLpbQl16PUSnZxk4C/D53hGjj09ihQieCHeWyR/7HfNCFeSvWfBjIQz8373uCkfxFS2rhE84Zn7eF7VAUzcL7XfAJx6PlynMkAYXq439MtwhIY8okuxo4/pUpT7Nnn\u002BhZt\u002BOsxSnHHCZWQwJo4gKQF/ZHHM5ND1cofzm3Y3AAsIxbbHgyZza/3ZAGKdseMPCpoXpU/jhePdI/X0qKGXUje3HzMgZiYH8vScA6Lh4HZOvIv3lY3TlQpzy/7OPl2XmIKzZGr4MYJlccS/jXmzoo\u002BJiaf6\u002B4dvMG135i6j4KIIpNuGQV2DD7tYl2jKLy4O/Q"
+    },
+    {
+      "to": "58468c47cec6af6c",
+      "d": "6PP7ESg0Ko14O1ZmB\u002BdPlOHJHt7NpNdJivoTHmKwgvf1sz3Y5xiJuX8MqQUIbXlGfZXRiqc\u002B0nxwqEQxmKnCfFLjh0BCrasuYaw4AaVpFOvhh4/mYZ333e5IDpVcZr8R\u002BiErcVBOkWoglTiPJIBwZyR9k\u002BIZEOu0tm2PvskBTs7NVP/FooFc9rs91NzHmgR67SeBokpRRMSzBVpnZHt0Fwcan5h0oJUk\u002Bcf61LCY/Yf28/iiVcv8xT7Uny5SRS451rfdVpbO5vMXB7GovS6TuJvXEUTq2HRG0YcTQurW\u002B3kUAjTFPQXh/09BIIm/rckjCG/MhnFdWOAjWFURhmuuD/XfZen\u002BlM5MM0xeTGBtligO51kjlS2\u002BEnpOXb\u002BJImQ2AERZ\u002By21kWsp"
     }
   ],
   "SignedText": "1.0.12|b4ecfc39ace6ac71b9639f62da5af4fe8998d7a30d6dafbccd7209d0fd59c4bf|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.12/LoonarHisobot_1.0.12.zip",
