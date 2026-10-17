@@ -1,0 +1,110 @@
+{
+  "version": "",
+  "date": "",
+  "url": "",
+  "sha256": "",
+  "size": 0,
+  "notes": "",
+  "sig": "",
+  "news": [],
+  "company": {
+    "name": "Loonar X",
+    "slogan": "Do\u0027kon, kafe va restoranlarni avtomatlashtirish",
+    "about": "Loonar X \u2014 savdo nuqtalarini avtomatlashtirish, POS qurilmalar, kompyuter va POS ta\u0027miri.",
+    "hours": "Du\u2013Pa 09:00\u201318:00 (tushlik 13:00-14:00) \u00B7 Ju 09:00\u201318:00 (tushlik 12:00-14:00) \u00B7 Sha 09:00\u201318:00 (tushlik 13:00-14:00) \u00B7 Yak 10:00\u201316:00 (tushlik 13:00-14:00)",
+    "week": [
+      {
+        "day": 1,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 2,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 3,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 4,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 5,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "12:00-14:00"
+      },
+      {
+        "day": 6,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 7,
+        "open": true,
+        "from": "10:00",
+        "to": "16:00",
+        "break": "13:00-14:00"
+      }
+    ],
+    "contacts": [
+      {
+        "type": "phone",
+        "label": "Muminmirzo",
+        "value": "\u002B998903610700"
+      },
+      {
+        "type": "phone",
+        "label": "Mirzaolim",
+        "value": "\u002B998200110014"
+      },
+      {
+        "type": "telegram",
+        "label": "",
+        "value": "@loonar_x"
+      },
+      {
+        "type": "address",
+        "label": "",
+        "value": "Qo\u0060qon shaxar Turkiston ko\u0060chasi"
+      }
+    ],
+    "location": {
+      "address": "Qo\u0060qon shaxar Turkiston ko\u0060chasi",
+      "landmark": "",
+      "google": "",
+      "yandex": "",
+      "coords": ""
+    },
+    "qr": "",
+    "qrTitle": "",
+    "updated": "2026-10-16 14:33"
+  },
+  "replies": [],
+  "keys": [
+    {
+      "to": "260f8af22b3d1130",
+      "d": "eh2Q5WN7FMK12OPbsDcyl\u002B/QcMHjS1H7XrHPtQgZNgJ9Zxl7/EpX9RzKn9P97Z3ME49vqOt6iWXUfLtI8Dr90Ih1r\u002BO8uDewaq\u002BP\u002BcyHuojL3yJ2xaezUhi8zfo5OdOOHYXOQ0pmJi5AKzVX7MW5dGqQucb5Ytp4tiQmyZWcIvUtVethwcqu9zpoPveyj5sNYO0DONf2cMdO2ouI\u002BIegPp43/lemtbI8mj/n0dDM0hELdXiHUN\u002BNfAQmCWhHRQ\u002BWEJhs5mq088h1B6H7eL3IUGvdvXckaAdlqVOwcSAij3yKT8DeL2JHA/dbndUegVlW\u002BLQufooxXgH5TqtiS31DlofVlBvJiAc6tOquPeqBDyUvMfJ7jenUYhH3qThl/p5QRT8U4BWm7SLV"
+    }
+  ],
+  "SignedText": "||",
+  "Parsed": null,
+  "IsNewer": false,
+  "SignatureValid": false
+}
