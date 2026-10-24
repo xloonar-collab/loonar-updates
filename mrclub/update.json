@@ -1,11 +1,11 @@
 {
-  "version": "1.2.7",
-  "date": "2026-10-22",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrclub-v1.2.7/MrClub_1.2.7.zip",
-  "sha256": "a0c95b19a84545df5aeacc9911c94140c7807701229d637a251cd4f222bda4e5",
-  "size": 69644701,
-  "notes": "MrClub 1.2.7",
-  "sig": "HW3VepnqHf3Hg2fclTq60n9lRq4h4f80gNbn9m2HUZOgOvXXZ97WURCoaNc9mv6ZOWbmcv8oicOH6F44OxGrmw==",
+  "version": "1.2.8",
+  "date": "2026-10-24",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrclub-v1.2.8/MrClub_1.2.8.zip",
+  "sha256": "23b02d6a88bf6ca95e8c06fea393d0e0ae4b5219c19fe0c1da27fcaecb7cb118",
+  "size": 69997361,
+  "notes": "MrClub 1.2.8",
+  "sig": "wNjDhYtdLtOXEc9csbmT4sD8ewQJcgTImNSPJ05C589KEWQh1Hs0CiHY8G5Q46KNTMx9kFrmZ/PAwd4muiT73A==",
   "news": [],
   "company": {
     "name": "Loonar X",
@@ -100,17 +100,19 @@
   "replies": [
     {
       "to": "260f8af22b3d1130",
-      "d": "PRsvUge/hVaWXEVwA9MUYrOzVYknEIyrGDnSGVNtqhJeYf2qkIDx0IppKdnK0nJzq4FSy1IJaDbxy5/XonvdXEDzoCFY7FWRNz7DBTWmKmw2CJcU9q6QSbw27HFVuKuFnd0wPQK/nFornHRMCI2q6n4KrlVypHRKPPmzN064oJdH8zyYOYL2WITuuiYyD83srenC\u002BDUjZErmZr9HU3540yu2mXXfhTyl40RG\u002BI1msA=="
+      "d": "FSTxeorUoanCbwFF/Clmeyq0fQ1MuNuv4Jw3QbXp9vg3RG0w1LTuJGHj3jgl38oDuVXsG1iuAwtrDa/pLQMYzt\u002Bh2JuG/nDbr9D\u002B08hg0FWj9vG2vkgm3y7ePGYdj0Gs2zzo81Y7is449GCiKjkW8PbvdbkjX32L4azW8l09w67wse9/pW01ywh7olDNaoo23rFL/08V6k65mHX1aPXgdMWzyLvzY0Qk8BFCkwUKaQ=="
     }
   ],
   "keys": [
     {
       "to": "260f8af22b3d1130",
-      "d": "O9Qf/BBdlPx4QM0o/k7AaU\u002BdJuflSmajRxW\u002B9PsYkdT2aRagDe/LQLlcyzd7NbH854ofBS1senTqvHXXm2s5LZlnx/sPZLrhOxM6FxF3xOQhTZ3YgDf4wJ24jCZo3fRsLQnOalP7ieNuE4nhfCVZ6QfFdgkXWSaEK//tm0LUlYuN0J7ImTRYH2tFNXGCUxJHm/ZrPRp9GjMzbapezuRF/b\u002BX4KQhqGhXaJ45\u002BD75zG\u002BJqAksIQvZhpfZ5nXG1yfKeckBtZcb66hgmLoJfWdUAcBTleCtJw5I0VXLGxbh1ts5UouqBaKJJDkYt4isb98HRAM\u002B6VcV8xs3tJV4/6uNMS83pd/VD14H2v4Hn/j3JfTRFNWiHU3L5VH44W55lxmtynOT\u002BtoSDd1eiA=="
+      "d": "IPMx7TUlN5AR7X4D3OuktAKSrzbfj6ZBi5AQXZ2E3i/DF\u002B\u002BTUDkI19/Sn7IZIsJbj9aO/BxISMSKSCwKgjcNb/i1IZXM\u002Bul0ZfRthaify4p6Wien0yRQ2Pn/PrasUUeKhyewBGUB3qpFcAiRKJ8BZkQ4Lq1GCZUtDp\u002BGAUVnmUFFNUTp/abISIVnE/4pGNBN0X9KA9fgG/BPfr9wcJK5gHEVQnrtGmi\u002By8vRKkAflyP56w2K5dmkyWZgsrx07BdTkzo5VOyd3i68byF93LbxWTl4y1wfE3OHC/yXNgS4\u002BuhDqCfM6gIR4oU\u002B84N7SK8m8lUCoxDAC4LXGqYmmHTDmiXWQmMw4958kUJbQnmYvSI9Qgp13QLWqi8AJQImM3A0k8P36IhQ/XFgyw=="
     }
   ],
-  "SignedText": "1.2.7|a0c95b19a84545df5aeacc9911c94140c7807701229d637a251cd4f222bda4e5|https://github.com/xloonar-collab/loonar-updates/releases/download/mrclub-v1.2.7/MrClub_1.2.7.zip",
-  "Parsed": "1.2.7",
+  "bot": null,
+  "filial": null,
+  "SignedText": "1.2.8|23b02d6a88bf6ca95e8c06fea393d0e0ae4b5219c19fe0c1da27fcaecb7cb118|https://github.com/xloonar-collab/loonar-updates/releases/download/mrclub-v1.2.8/MrClub_1.2.8.zip",
+  "Parsed": "1.2.8",
   "IsNewer": true,
   "SignatureValid": false
 }
