@@ -1,11 +1,11 @@
 {
-  "version": "1.0.27",
+  "version": "1.0.28",
   "date": "2026-10-24",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.27/LoonarHisobot_1.0.27.zip",
-  "sha256": "042863aedff5783a29085eefc25484e17a9ef29d1a9bb419154e19225e0ec674",
-  "size": 106828033,
-  "notes": "- \uD83D\uDC65 Telegram bot rollari Loonar X tomonidan qo\u0027shiladi (masalan \u0022Skanerchi\u0022 \u2014 faqat \uD83D\uDCF7 Skanerlash): Sozlamalar \u2192 Telegram bot da odamga shu rolni tanlang\r\n- \uD83D\uDC65 Loonar X roli berilgan odam menyuda aynan belgilangan tugmalarni ko\u0027radi\r\n- \uD83D\uDCF7 Yangi ruxsatlar: \u0022Shtrix-kod skaneri\u0022 va \u0022Skanerda kelish narxi\u0022 (Rollar oynasida ham bor)\r\n- \uD83D\uDD22 Botdan foydalanuvchilar sonini Loonar X masofadan o\u0027zgartiradi (20 kishigacha) \u2014 yangi kalit o\u0027zi o\u0027rnatiladi, muddat o\u0027zgarmaydi",
-  "sig": "2hjDilsMwASxCE3f9lnvkrzwkfUoEa9XqjDIvlGs3UpRW6JaTxrp/Pn2N/\u002BrIJ6rgf0sR\u002B4bxAfkGVeT7WDQow==",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.28/LoonarHisobot_1.0.28.zip",
+  "sha256": "a8014e69c8971d0ab931e8a8e002a56ad2e21e5a6efaf9751fea8d0fafc50259",
+  "size": 106832064,
+  "notes": "- \uD83D\uDC65 Sozlamalar \u2192 Telegram bot: rol ro\u0027yxatida endi Loonar X sozlagan bot rollari (\uD83E\uDD16 belgili) va Administrator chiqadi\r\n- \uD83D\uDD04 \u00ABLoonar X rollarini hozir olish\u00BB tugmasi \u2014 yangi rollar kutmasdan darhol keladi\r\n- \uD83C\uDFE2 Filiallar bo\u0027lsa, har odamga do\u0027kon biriktiriladi: \u00ABHammasi\u00BB (botda o\u0027zi tanlaydi), \u00ABFaqat o\u0027z do\u0027koni\u00BB yoki \u00ABFaqat: \u003Cfilial\u003E\u00BB\r\n- \uD83D\uDCCD Biriktirilgan odam botda faqat o\u0027sha do\u0027kon hisobotlari va qoldig\u0027ini ko\u0027radi, skaner ham faqat o\u0027sha do\u0027konda qidiradi",
+  "sig": "TESXR8X1z8y3CVNq/ra\u002BnroqoNGH8aSgBXQwSDqrsitc\u002BKAxwp8QUuTwccGmjwEBSaQ09a4OJBRTsQ3T3XKH0g==",
   "news": [],
   "company": {
     "name": "Loonar X",
@@ -100,80 +100,80 @@
   "replies": [
     {
       "to": "bf620a006aee30f2",
-      "d": "aM69kuulvnK/mmV0CatU51rKS509YezVjdvpOgULBOvr\u002BHqCmtYjDgyGpf\u002BTS2iz33PZqUdKdYKvh7\u002B09MbqMcRkcs40wVV/MnWergl3Vae4T3jjgwGo/s/h9Pk8RSeW1QmLp2BFT6hagHxEmVOxt05u2BvLjAscm1C0Fp9LbECjFMcn/ueY\u002BjK5YC2/hH4uPSvZjtJ0GJhOTBYIpV9eTkg3QPrT2A=="
+      "d": "\u002BXHy98VdT0YDTWqp8uI0RS5DHqYxfmcDKIbbbXti8h\u002BKdsuOdi1gQ2FfqaJAxlF4tpHM2n7mnfottVAXYd4l9G9Dttb30wgiqWQzsnNAmQ5LJeRnwE\u002BYzRoP3dwyEVDm0EtTwaHbBWpmFVqVJyYq2bIUbr5grCrfbp5waE3Qn0baf1iYodNpQXT4XUqY5yo12IGQHimVHV\u002BFsBO/4gS7TKI1BHH0Vw=="
     },
     {
       "to": "58468c47cec6af6c",
-      "d": "Uu1RkqG\u002BQS2rx5FeFbibAPpu22a/kUIHXx0pWIgZlHAmbXPDbX7HGK\u002B96OuZmjSSPLMsAxywfoKbgkQfdbJ/L0x\u002Bj59GJwcQc6Hl4Z7OLsxufCEAgbScSDTp\u002B/v4KsowGi4/FN7YpNe6qbZQxc7qeTL/J6Wv/HCF30H\u002BaAA8uqD7lZbnH26pXwgubvnquFtWJdyjo2rEQEWjo/ARZ6Cm0gZR4V\u002BJ/OAfy9g="
+      "d": "wD9HhdHPatd9Orub43\u002B29jewEbOq\u002BTjWrM8jztQUAu8EvEGHAR5EXSCa89cJtRaWIRT6RreJVefGLdhuMzhPymWGcWgHdk4fRDeyBB44J/Dn6xL/SNHrVHR\u002BEGKaUc9MGYCxKOj4CmX2IWie03Ygtc3ZWQ4wNsbPzbY9wpYJYiQxAA\u002BlEkY1ZQdktpips26XsuKk9WfZx8b/ERCy0jIpFWODu0nO/KcpH3E="
     },
     {
       "to": "bf620a006aee30f2",
-      "d": "kTH2MwDeayh7FeHDxvYt0nTQ8S\u002BpXnrbXA\u002BakSi\u002BD18Wi4fUq3wpeV\u002B4spzUEm91arPrz65qrhbkmdFKDJh6ckva3s0X55XgYPmeKAxPHpCXavNaKA13SQaUGY/Ah4MmTIe7kPg2poz8QjyEibVz2xt\u002BOhhBZ3tk7j61uobrsaWaVjuLzqMirGv0WtXf/fmKFcbgK4yaKUJtUuBt5vG6iVTZ3owvwGEqyFE="
+      "d": "xuvqKUEQhM5FgBVsFgSyqRFmLabJOOF9VzlsaTfqrmwUWP9FTD5XHG/8Dxo3hDGf9uYosq/FlmccoVSAEnLbwdA1Zt1YrlcHDvV/ZVg6B0WVL2NNS/aGz2cldjCTlwhAA9vH2LvUen0fcQG7OLvj7I7MX4L/YqF2AzvcibGQWqmX1JBIKfvn1OYZq5fUCFUnj\u002BejaCfJ0uIT26o\u002BbQLn4uHH/2rTPlt6ztU="
     },
     {
       "to": "260f8af22b3d1130",
-      "d": "26FTSZApWpjgQptxwP7E3T9IccMC5nMApr\u002BH41S92i7wBPrA\u002BcgtHN/OjyRaKNS\u002BdsYwpVuqTGANzAQLGJcd6SU9DLWnd11Uxc6EhaDprKjGo\u002B3zT5Ic\u002BbQMX/UEebdgzvdeuligd43aMxM3I3LIg\u002BEJRf80bgeXJDO3\u002BMae7wwxuP5jSfO0FlAfYaOrQzGxkC/6\u002BjWzclWdxFiwmlouFtyDlRWssHTf6e4="
+      "d": "vzFoHTmDgcsFOxNm7d4BKqvSEy\u002B0bU/\u002B/ekIe12iQJrBxa/m5bXz85LU0\u002B82X0nDSlTK482HAM78tk1GGbQjo0XA7TkUI3Vhil1sso38HWxf\u002BamFxlKeNhjxyuKM22uPEd9XQ4a0GRKqmgREsRkWsYO0aoravvTZQdUVUZKUa8VCDl4beFJAi3r3vL9LWQzCYCoWuo30CWEtkXhLotfOKUu576aVI76jcUE="
     },
     {
       "to": "58468c47cec6af6c",
-      "d": "ZnTq\u002BuJc2AN4lPcZQ5T/Ib1RXm4nQw26hehyuyXu42zgsfW0hZmKdB\u002B1onRP8h51mzJN6naTkgiRlkw3J0TtwYGHhFKEs7QGtGNpQna1CiOdEGKrcbmeYv1jydytaFNsu6LTyp7xZ5QyZuOtGmghnQk\u002ByebZTOKhibCTwWSXYYRNs6bHYhD5AE0zBLsO7CBCPKuogDD9Eyl7OYBJBIbhoaOcuNBHyw7201wMhMcsR0VrE857\u002B70cNA=="
+      "d": "HbwJaWtdzObOaUJuYPqwWt0prhEqWD/Y6bmo6K/Ji67Q67z452gruGe3PE4kiZQrs/CrZ6W0/001\u002BneOAUZZUDNo7SExdR\u002BZnL/RPv1Y6KeHrht1T43SJu1KtmommckfD\u002BeTuNtpcjN9h1NPSPvtTmh9pO46JKzQiIxnXWoA8Uof2ztZPwibI0z2m3aWGqFehr4tVcYCfKFTAgiBVNJOUZvXtaV5uGaYBxzbvfk4NoKxtB3NuOoPBA=="
     },
     {
       "to": "bf620a006aee30f2",
-      "d": "eDsmAWSh2SC0kV2V31gi9VpqERP7sd14wS8rUBcFsJuJbbpOGtYZqPI9jj0aS8l0KrtovHwJxqnd\u002BgTmTLSfzsJr98oDxLkIrqqCRX9piSnrmTjk6Ei2OcektEYk8fHvuc1fkigkRH05H\u002B43T7GQXHyhkQqpcx7\u002BdY7wen/KIJa9/29dKyJDtCq186cl53Ni4Crtgw1tT/xHnfSchc34TUaidyi372dTNMs9LyUc\u002B1d6KG1dkp\u002BhOg=="
+      "d": "15CbcNK6Q3hjth/vrT1jxrCyGX0w\u002BBzNJzlJETJ3VL8h71BUsW3InWWOgTRrtSAJ\u002BAOcHpC5thgrIx7fFpaBhJGWu5iAknn51R\u002BFYcZAKieYvEd21R2Gz0d13lvzhDsu0tmobpuzirg3aA6sARNcwfTR1i/SvszruKlFGkiTYx5Ls06\u002ByozZwWThLqwzinUR73l9cA0yRuyt4IyhfFEeCHyOzfKu7rAXehOClAVJMTNEB4N8uwWBcA=="
     },
     {
       "to": "260f8af22b3d1130",
-      "d": "4EDq6mdNZFsPMaSlVwTSgnmqOfA1pwY1MeeC3XRbsFEFLR/2jpOftqHNQEaqzv/q4kzqaGSYtP/Bte\u002B7T29TUObjl0KdZ1INK8I081AGykiffkfKrOQ6dc/J96A/ELvDnyc5FYAY952fGDeiJ23Gwr0pOtNlpmeBKcNIFrCriKqRsBZEyCnM3I5Gi5cCCQXSfFyexEOyf6RYdqVoF6LanWGKQfIDZVedEn7\u002B21Ojp/SWBO\u002BQ3om5gA=="
+      "d": "xTsWXrbgKnJOXv7H3iWu6i9vcTarY0rArxQAsJBjs/CnJHWzXrUb\u002Bb13TYqfbTd/CzfRQkcli/T3V9X0BMj71yNTREX\u002B47K8Y05e4jxLAGPjLecHYvlCJJ42Coz9ZK1dzzuexbLl6fqEVsb5nFEmVD/6Kwyw3rqANOpMir8aZ31AllW467DujNl/C64o3dczj9wFSydSMK3Cw6oxvkreInVnn5WlhcNZQQNx9il4QjDAByjGmtbslA=="
     },
     {
       "to": "bf620a006aee30f2",
-      "d": "yKBaB9bc31Zhob4POLcVVG7xfdQxcyAuIfjXMPND0mPisEz\u002Br2X0dqslhDPtq/BjTmul/MCevk\u002BggthjdLRUblckbLc1DKGsMSUfZAJaOPsEVr4Sk9hVOTEz0pdkS6ieZsLuK9vbSNgLhHqrFoN0jxDsL/xAR5GV41fv9HhDjUTNKcYrBvbQEsexlq5OnQ63lQCjWGQ3kjKXVz6bnkbI4BZa69TVOw5o7erSCGgHmzAWXtwxF64oyw=="
+      "d": "II8LZvJmpog3BeIEXrkCrbC\u002BCEohUIqNXFmjxTHkroPjcnTPwvry/fkMnXKvdG1axSkLyEqP3E2EP04t78BZZxVyeuSqYDOW3UQWyzDQopIXIB6WPnW9l11evtzXH3oUMeMn83lOyYaNzsw9p0jeRCD/g1wf5GW6\u002BYr/0MCuizUN0lGiPLQAuB\u002BuFVRORwDJ9U0VTfXOwvAvK2\u002BNkjJnjYvO3DAqOKGHNqwwyoUT1NMmJvhYS9Grmg=="
     },
     {
       "to": "58468c47cec6af6c",
-      "d": "wXnJF0Wld4UlPdl0JQWJwP6gREy9zhCt3asqlTOU0Iv3ejQDjulGX1qUJ\u002B1tcEKgrwYOG6UUqyR28wLfLh/eI5ypiSWSB4oZORQH2uWP60paHgdjgZr2lvUDOwEIABwDeICFsqIJMd6EMzXibzjFhkLpygazN\u002B0i\u002BK8d9KKSFSKK7U6O1Dfsa9bPcsVwivHWWOd9Cwr8lnB1hFbANn2tUmTNLxJGdX4Gvlsk\u002BJ0DPpbbALaVzYYuZNw1y0IGXbMN/fOJU7y6QsixDvAoG\u002BIX04rdDgLFrmhX2EckogUP"
+      "d": "RrsAM3pXN6yAE00oMZLhLBIaJ2awWxpt\u002B88loBvoMP16A2f6GWVqKIdmGZyEv6d3Seo32cMpWkRZURQFJZ\u002BUgyagF\u002BVDAgsjLKG6p9HvF/sRkoLQ1LzS\u002Bv2t5LUgyWfiBnvg/XTWyT8KPJCm/2UyLeezkuDGwK\u002By/3fNrM8JQOA4IMn6W/AZaWA/YV7U/4fQIihUjf\u002BjNDrzG1czSW6eo7J5mXCdNAMGwOGOX/EmGMMj/3UpXgQHv5yWXcYWAJ0kvqXWaCZvi8wzz3\u002BtkJdJa5yELq6ieYNMubND3pQC"
     },
     {
       "to": "260f8af22b3d1130",
-      "d": "DKOu7fsfPJx9CcJBM8qzsu\u002BV7z28Q4N9XJUQDi5TlfreE0tvZJeOg/5nH57pQT2aCTgimsxPs\u002BwfKBer7OjC1a\u002BFq0tkAuxXFdHnrb9QWAuouw\u002BvHWoSNs55l2nYazkUwjzzNRMKZXBTv4Owe8/GItGqoh8KopkbcbrsitMsyfmdeiQXYcfC1LIS1cZJiEmjX64L2F792os9M9GfnWKq0FanjH36vOtfl5nrpOnvARsLWBrQ3ZbB3TWiTjdu1J3pfBozjAeKqwL4mJmcmjOx1CKt3TFcmg8PutFyKX2v"
+      "d": "8zIbCM9\u002BPqy9L1eNpM7OnDUx\u002BOMQQsFa60kyUaFOrI0IjdcF9/SWErujBvsXuqDNTJdTgGJePK7mPlrK8n0BL8c11e3dR2qoMOz2vQ9P0qkK2xVFhWj3\u002BnXFivYgPVVN/CC8SP5rJjvdB4t5CNxOQdMgAjoscBU4NyPQ003EsaK002JPhxOi75maxm9Rw8sOA3R89dybp52EfL2CAfxrM/96oE/V6s3nWY5I7\u002B\u002BFcIgFQvZKb/o2GvJreu6GLijs0R7\u002BHjTcWX2BcocEulVu1gDTfmRTfaQ0OMafzdTi"
     },
     {
       "to": "bf620a006aee30f2",
-      "d": "IAx4FLclnKCSAW/IA9JhVu8HjNuY6gNIQGmbaSaLXBQhVnJidsY3VWvXsUyMINhJx7Yw\u002Bcw0GxArxF2HFTcG\u002BNjScNK/sySQXQ6gJA3a8/I4zxZIyQNEr04cA7f2Q2fkdOQhjKJyJAEmzbYV18HZ7sAMy\u002B4d8ua27jq1wQ8j5fHkzC5tooSC6z952n7Wbgqq\u002BoVFL0EOtME\u002BRuMFwxvVLGRMxzDqUPpBtlLefthHcQ=="
+      "d": "vOv824lrVsmTJRSfD25TCACbM9EfqssCG31jBnu4i5X9osgzfJ22D0p1q9xrIOhag4GWNdujFRK/Ng6ZyU00GfpkzhcAhPlCxJihg8Zye/LWCF2Af2Ctm7lPf/5/z23\u002BuohPmZCqTZq909csbTMiHHw/JYh6i8E2bz3FrmwKadQRadKTEjBp4BfRShwdKlwNsuman97aXeBCQ4r2a/rBX1YhsfwXeqpZ7\u002Be6W314bg=="
     },
     {
       "to": "260f8af22b3d1130",
-      "d": "Zk6ricjmMqtpy9hxKk5JS/b92UaKVunS0Q2BZJoQwmlJAc3fmPQqmZ7/20ivAM9CtL/zJA//T6vv/Q6q1ExNWIHxryNP1NzBJTL6fTax6sHm3LxGFh8jWJZ4IKtoFUYPiLLvxy5juvLRPvNpUvpsFXm9pFAssVJBgGf6/ItYkujIf8omhtg6Xrw8cTObYOk03cpV\u002BruvjZ3144lXybxYdcBT08InKYh2\u002BjztO7SQcQgK/evnunz/GtpRM4wePHD2VNaLUYJhKGJFk6CS/BqmdOQ/ueN4g6PV"
+      "d": "i\u002Bfb66qL0gv9MwDETtB2sROLaJYgTXl6S2K4oRPsANDUgjQ\u002BDU9oL4GQn33dhY3xW3FYRAyLuGEvPy7Ult1HHiFA\u002BFVKcp\u002B\u002BDewkS5xtSgVGuUjHXfbuQtKqlKfN3jyv72M41Tdl/RC1jMNaMtnaNwcyuPeSLBW68W1DBqc0umS3SveJvHxU1A27blBSJ2siYKaUyNNhDGxP21kLG7fV47cn9XKCHEW7ohdURP7oxmW6EQr87GRGctNiOhjU\u002B9\u002BpLoBV0KlZZVaBYESjAj54NpYPIngJR9VD"
     }
   ],
   "keys": [
     {
       "to": "260f8af22b3d1130",
-      "d": "AqF4woLlfglivCqtazkCDFjksWP1nJfopmgsNzbF1mxtkI5XiPJndmeISEHpSE6gmNCSLCmSgtuxp6TNvPBw8\u002BzugWmlCnY/aLwTBGlwYKzKDMK\u002B2ju\u002BpwbQJ0tWffCz5mAgvYZzBA8jI5XFXMo64541Bm8lVBipiZce9yvPp15SDPjWrjekI4c\u002BkOkPPilOobdweam\u002BmI15dzXJYHZAIUgAOl\u002BCZxwf1gMJ6sP4ljXNSLZa9Cd8XYxehcv5jIixgXQ3uQie6LQWNr\u002BOtilVuFLY5vRoxNOwHzklW2Rn0Uc9Jwz2eRl0J1T602oIEgBBn0tW/grYPnXdIdITicG0kcCDP/NJRpfmMfJNfgVITVeMuYbMk4Q321nr6SGbcW08jp7J\u002Br4WxSVtOQ=="
+      "d": "K1zySZEw/JZ\u002BbqZdtEZujl/Yp9ZKVGVbUwuABUZIea2EeCZUbN7sG\u002BF16fwjxBT5zRpaEaaF7WFd1RQrqRTcnf4oK3rqizbnGrfRIi7TVdOtfAHXewbnkKZQRWQ3vB0q/pcQJQEQjs4w0P1nKg7I3fPFf5wq8C3e2OKlzslkmPXCnYnrilLad/1Ota967KG8Hvf\u002B8yPKPFfWEViOWYQfCKPkzTIGD5ZlckVYq9NFO/Z9TOWJT8R0fa8J3XVK5h/oIgIzP8C\u002BDxau\u002B\u002B7vsC2\u002B/OIQA6F1PABEgWcu7dXC2xaKSle/I\u002BqOpSb3f7WG6vHv/lEqxpbvh8fc62RMbN0lxnjOgANGnLB0SYn8nerJWV8XvYqzbecc1WcGtRAegotyEHQzwFenaMQMiQ=="
     },
     {
       "to": "bf620a006aee30f2",
-      "d": "1LGPXyOrbjFqjXRhKeFpb0gOxMTqliUNUaBwFQqv1l6OZTGyrZcWnq6dhWu8a1fAW94ShHL0DseOq1nDaP7HsfMaEP1s2nL/aRmCGXaT21H7dapf4XGb2PE6TTFFEeJtR/wA2DNLWspMcxodr40JDJec2foB452v2KARHXvXcZQv2/wyxCsiCeTpBVk0oCd5b4lRZT1u58\u002BN3X/w\u002BrioCbCco2Su3sbAtocSInlLTa4DkK391bD4lC8lfZE7iAnHXTsaR89bqX/X8PugI7Lqd7oL6AiBxufm0phyRqnEwLMTrEsj1L0yCyPE5GHbnyqq2cZ5z5OLpbGBHeLgNjR3\u002B547QVFVvGwy8x8avzoa1EgwLrfVEVw8Ko3Tbh0CVvXJrqhyAbyTFWC9"
+      "d": "OB5IXyOdjdYBGNuskQoQIIurROY/EM2tJgWnRqjbSpJDaBCSyHz0RkpWCeFyLB0waggLWplqGLHWWpFAsCJu\u002BRWw9heLK0nv9wPo4zQJO7fWOjmtRuQkP3m1C7m8MWtS7sxmtabhnmO7lweXdd60SclOuApwtZpEBuEIQ5Dx02kVuFqhiWBU5Ugi15fXIKndwu7gwgf9YM1FSmBBI3h3sr\u002BgLSXXv0bsfLKG7DzCtfNXHgpJYwg/qYEqTKlIvXWyfDONQ18zAe2oD5w99pnT5SCQjjcnYbToi6uudKNDVISoB1/Bip/Dhs6cpu3VmwFz7m3F49fLbDN2TQj1a1lEi6LyZ32g39em3hxSwSfP25EjjcPkhhws80KeaPEwpdPHGXzcp2HJ\u002Bwrm"
     },
     {
       "to": "58468c47cec6af6c",
-      "d": "VQNOqzDoP6o1zs/3dhbnruSzv38KrR4N6M\u002BN\u002BIycbuiz0C\u002BH2KyGqIPuHmfLqbez/AZt8RsHKAch4qwGIsNm4wrVOb7J2w55bRZ\u002BsSqw7UdlVA8NSeQyboJxW6V9wiXND1XbVVXYcROLZiL0YrTxcVfaNJqOfHqbzgZjK/JBc/CQndKWe8SN8TXMjKNvtLf\u002BzefxNFSpg7X9z7JvAB3IsMsVu8rlHOzpgDdvC71PQmhd9gr6cVuiYmmrbui4d1iqvHzff6YptEeyTCs/tNDSixFZ04xtnsn6ms1GB6W0Ezxkzp0IbQszhm4FnXx46Airax3z4eVnMDs7fWrHE\u002B4FvIos9jkx6elLgyh9akAqtfSXP\u002BTuDbFxFIU8\u002BcaMTV9BFJY\u002BHYxaiTQB"
+      "d": "XP6Z1ybEkf8Xv69/3EOT8BG8X7or7KfPP2\u002BEu6EDjrgWbNw4Lp3BWjEyYrgA3cNFqf7hnTQ6c7TqBzCB0CH27sy7nyAa\u002BdEKwvmYGAQYKvwaYyLe3TmpKpsandHSsvExDlg0OFnVxgrdkCKIGoaR6RihNTfHkOlY1eflWpXgNdfXNSxYzuni2zbQR\u002B5fE3Fuq6SjkDAiJnOiTj0/hesamtfnYmHFc2OmOi9aF2TwhXYIYL7E7T6ibibRcHbgqxY\u002B8GMn\u002B3uhzs2Uw5amsIl\u002BD\u002B00Wb\u002BT3/pnTAV5MoIm\u002BglK4iRb/C0UaVo13bf8PVoIfkvZj7uvYEQ2nYai1Jw1PqbdMs1PWXYJtk4rUh9cFzKXAwc4Cjy\u002BzEqDNzXT7kUrZ5pEqgTlzHjL"
     }
   ],
   "bot": "{\r\n  \u0022tugmalar\u0022: [\r\n    {\r\n      \u0022kod\u0022: \u0022today\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022yesterday\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022sales\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022profit\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022products\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022stock\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022debts\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022customers\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022suppliers\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022cashiers\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022expenses\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022turnover\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022days\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022compare\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022inventory\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022quality\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022scan\u0022,\r\n      \u0022on\u0022: true\r\n    },\r\n    {\r\n      \u0022kod\u0022: \u0022search\u0022,\r\n      \u0022on\u0022: true\r\n    }\r\n  ],\r\n  \u0022qatorda\u0022: 2,\r\n  \u0022tezkor\u0022: true,\r\n  \u0022salom\u0022: \u0022\u0022,\r\n  \u0022aloqa\u0022: true,\r\n  \u0022skaner\u0022: {\r\n    \u0022on\u0022: true,\r\n    \u0022javob\u0022: \u0022batafsil\u0022,\r\n    \u0022tannarx\u0022: true,\r\n    \u0022filiallar\u0022: true,\r\n    \u0022tarix\u0022: true,\r\n    \u0022manzil\u0022: \u0022\u0022\r\n  },\r\n  \u0022manba\u0022: \u0022Mirzo\u0022,\r\n  \u0022vaqt\u0022: \u00222026-10-24T10:50:59.9258277\u002B05:00\u0022\r\n}",
   "filial": {
-    "version": "1.0.27",
-    "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.27/LoonarFilial_1.0.27.zip",
-    "sha256": "d1340da3264aa699f10ba43f1ff086a49863a815b7c1042e98c22927bb05e39c",
-    "size": 68846123,
-    "sig": "iwXN0ogEmZLfPDGn/PNwMWUZpS4EncwaK6l3nfAgUR/PnNie8MoiCPcp6542OiZ8ob2UkTDOysxJ7/3RRIu0Rg==",
-    "SignedText": "filial|1.0.27|d1340da3264aa699f10ba43f1ff086a49863a815b7c1042e98c22927bb05e39c|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.27/LoonarFilial_1.0.27.zip",
+    "version": "1.0.28",
+    "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.28/LoonarFilial_1.0.28.zip",
+    "sha256": "4d3077128168c417d97eeb33067e188a65cc9c9a828f86c111b8e63543c9673c",
+    "size": 68847287,
+    "sig": "YDhIuSB0mvextqexq7zc5Wx3sgBBe91L4825GCsXMldlckkKH00RF/qMNLNRgIwT5BflHxjF/U7LvauEYXxA\u002Bg==",
+    "SignedText": "filial|1.0.28|4d3077128168c417d97eeb33067e188a65cc9c9a828f86c111b8e63543c9673c|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.28/LoonarFilial_1.0.28.zip",
     "IsNewer": false,
     "SignatureValid": true
   },
-  "SignedText": "1.0.27|042863aedff5783a29085eefc25484e17a9ef29d1a9bb419154e19225e0ec674|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.27/LoonarHisobot_1.0.27.zip",
-  "Parsed": "1.0.27",
+  "SignedText": "1.0.28|a8014e69c8971d0ab931e8a8e002a56ad2e21e5a6efaf9751fea8d0fafc50259|https://github.com/xloonar-collab/loonar-updates/releases/download/v1.0.28/LoonarHisobot_1.0.28.zip",
+  "Parsed": "1.0.28",
   "IsNewer": false,
   "SignatureValid": true
 }
