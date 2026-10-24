@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Loonar X Skaner</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="html5-qrcode.min.js"></script>
+<style>
+  :root {
+    --bg: #0b0f1a; --fg: #f8fafc; --muted: #94a3b8; --accent: #6366f1; --ok: #22c55e; --card: rgba(15, 23, 42, .82);
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font: 15px/1.4 -apple-system, "Segoe UI", Roboto, sans-serif; overflow: hidden; }
+  /* Kamera: kutubxona video o'lchamini o'zi belgilaydi (ichki elementlarga tegilmaydi), biz faqat markazga qo'yamiz */
+  #wrap { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  #cam { width: 100%; }
+  #cam canvas, #qr-shaded-region { display: none !important; }
+  /* Ramka: shtrix-kod uchun keng to'rtburchak, atrofi qorong'i */
+  .frame { position: fixed; left: 8%; right: 8%; top: 32%; height: 22%; border-radius: 18px; box-shadow: 0 0 0 100vmax rgba(2, 6, 23, .55); pointer-events: none; }
+  .frame::before, .frame::after { content: ""; position: absolute; inset: 0; border-radius: 18px; border: 3px solid rgba(255,255,255,.9); clip-path: polygon(0 0, 18% 0, 18% 6px, 6px 6px, 6px 30%, 0 30%, 0 70%, 6px 70%, 6px calc(100% - 6px), 18% calc(100% - 6px), 18% 100%, 0 100%, 0 0, 100% 0, 100% 30%, calc(100% - 6px) 30%, calc(100% - 6px) 6px, 82% 6px, 82% 0, 100% 0, 100% 100%, 82% 100%, 82% calc(100% - 6px), calc(100% - 6px) calc(100% - 6px), calc(100% - 6px) 70%, 100% 70%, 100% 100%); }
+  .frame.ok::before { border-color: var(--ok); }
+  .laser { position: absolute; left: 6%; right: 6%; top: 50%; height: 2px; background: linear-gradient(90deg, transparent, #f43f5e, transparent); animation: sweep 1.6s ease-in-out infinite; }
+  @keyframes sweep { 0%, 100% { transform: translateY(-38px); opacity: .5 } 50% { transform: translateY(38px); opacity: 1 } }
+  @media (prefers-reduced-motion: reduce) { .laser { animation: none; } }
+  .top { position: fixed; top: 0; left: 0; right: 0; padding: calc(14px + env(safe-area-inset-top)) 16px 10px; text-align: center; }
+  .brand { font-weight: 700; letter-spacing: .3px; }
+  .hint { color: var(--muted); font-size: 13.5px; margin-top: 2px; }
+  .bottom { position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 16px calc(16px + env(safe-area-inset-bottom)); display: grid; gap: 10px; }
+  .row { display: flex; gap: 8px; }
+  input { flex: 1; min-width: 0; height: 46px; border-radius: 12px; border: 1px solid rgba(148,163,184,.35); background: var(--card); color: var(--fg); padding: 0 14px; font-size: 16px; outline: none; }
+  input:focus { border-color: var(--accent); }
+  button { height: 46px; border: 0; border-radius: 12px; padding: 0 16px; font-size: 15px; font-weight: 600; color: #fff; background: var(--accent); cursor: pointer; }
+  button.ghost { background: var(--card); border: 1px solid rgba(148,163,184,.35); }
+  button:focus-visible, input:focus-visible { outline: 2px solid #a5b4fc; outline-offset: 2px; }
+  .status { position: fixed; left: 16px; right: 16px; top: 58%; text-align: center; font-size: 14px; color: var(--muted); }
+  .result { position: fixed; left: 16px; right: 16px; top: 40%; padding: 18px; border-radius: 16px; background: var(--card); text-align: center; display: none; }
+  .result b { display: block; font-size: 24px; letter-spacing: 1px; margin: 6px 0; }
+  .err { color: #fca5a5; }
+</style>
+</head>
+<body>
+<div id="wrap"><div id="cam"></div></div>
+<div class="frame" id="frame"><div class="laser"></div></div>
+<div class="top">
+  <div class="brand">📷 Loonar X · Skaner</div>
+  <div class="hint">Shtrix-kodni ramkaga to'g'rilang — o'zi taniydi</div>
+</div>
+<div class="status" id="status">Kamera ochilmoqda…</div>
+<div class="result" id="result"></div>
+<div class="bottom">
+  <div class="row">
+    <input id="manual" inputmode="numeric" autocomplete="off" placeholder="Yoki kodni yozing: 4780…" aria-label="Shtrix-kod raqami">
+    <button id="send" type="button">Yuborish</button>
+  </div>
+  <button id="torch" class="ghost" type="button" hidden>🔦 Chiroq</button>
+</div>
+<script>
+(function () {
+  var tg = window.Telegram && window.Telegram.WebApp;
+  if (tg) { tg.ready(); tg.expand(); try { tg.setHeaderColor('#0b0f1a'); tg.setBackgroundColor('#0b0f1a'); } catch (e) {} }
+  var statusEl = document.getElementById('status');
+  var resultEl = document.getElementById('result');
+  var frame = document.getElementById('frame');
+  var done = false, last = '', lastAt = 0, scanner = null, torchOn = false;
+
+  function haptic(kind) { try { tg && tg.HapticFeedback.notificationOccurred(kind); } catch (e) {} }
+
+  // Kod botga yuboriladi (oyna o'zi yopiladi va chatda javob keladi)
+  function deliver(code) {
+    if (done) return;
+    code = String(code || '').trim();
+    if (!code) return;
+    done = true;
+    frame.classList.add('ok');
+    haptic('success');
+    resultEl.style.display = 'block';
+    resultEl.innerHTML = '✅ Topildi<b></b><span class="hint">Botga yuborilmoqda…</span>';
+    resultEl.querySelector('b').textContent = code;
+    try { if (scanner) scanner.stop().catch(function () {}); } catch (e) {}
+    try {
+      if (tg && tg.initData !== undefined && tg.sendData) { tg.sendData(code); return; }
+    } catch (e) {}
+    resultEl.innerHTML = '<span class="err">Bu sahifa botning «📷 Skanerlash» tugmasi orqali ochilishi kerak.</span><b></b><span class="hint">Kodni botga yozib yuboring</span>';
+    resultEl.querySelector('b').textContent = code;
+  }
+
+  // Bir xil kod ketma-ket 2 marta o'qilsa - qabul (EAN da noto'g'ri o'qishning oldini oladi)
+  function onRead(text) {
+    var now = Date.now();
+    if (text === last && now - lastAt < 1800) { deliver(text); return; }
+    last = text; lastAt = now;
+    if (/^[0-9]{6,14}$/.test(text) === false && text.length > 0) deliver(text);  // QR/Code128 - darhol
+  }
+
+  document.getElementById('send').addEventListener('click', function () {
+    var v = document.getElementById('manual').value.replace(/\s+/g, '');
+    if (v.length < 3) { haptic('error'); return; }
+    deliver(v);
+  });
+  document.getElementById('manual').addEventListener('keydown', function (e) { if (e.key === 'Enter') document.getElementById('send').click(); });
+
+  if (!window.Html5Qrcode) { statusEl.innerHTML = '<span class="err">Skaner yuklanmadi — internetni tekshiring yoki kodni yozing.</span>'; return; }
+  var F = Html5QrcodeSupportedFormats;
+  scanner = new Html5Qrcode('cam', {
+    formatsToSupport: [F.EAN_13, F.EAN_8, F.UPC_A, F.UPC_E, F.CODE_128, F.CODE_39, F.CODE_93, F.ITF, F.CODABAR, F.QR_CODE, F.DATA_MATRIX],
+    experimentalFeatures: { useBarCodeDetectorIfSupported: true },
+    verbose: false
+  });
+  var cfg = {
+    fps: 12,
+    disableFlip: true,
+    videoConstraints: { facingMode: { ideal: 'environment' }, width: { ideal: 1920 }, height: { ideal: 1080 }, advanced: [{ focusMode: 'continuous' }] }
+  };
+  scanner.start({ facingMode: 'environment' }, cfg, onRead, function () {})
+    .then(function () {
+      statusEl.textContent = '';
+      try {
+        var caps = scanner.getRunningTrackCapabilities && scanner.getRunningTrackCapabilities();
+        if (caps && caps.torch) {
+          var t = document.getElementById('torch');
+          t.hidden = false;
+          t.addEventListener('click', function () {
+            torchOn = !torchOn;
+            scanner.applyVideoConstraints({ advanced: [{ torch: torchOn }] }).catch(function () {});
+            t.textContent = torchOn ? '🔦 Chiroqni o\'chirish' : '🔦 Chiroq';
+          });
+        }
+      } catch (e) {}
+    })
+    .catch(function (err) {
+      statusEl.innerHTML = '<span class="err">Kameraga ruxsat berilmadi.</span><br>Telefon sozlamalarida Telegramga kamera ruxsatini bering yoki kodni yozing.';
+    });
+})();
+</script>
+</body>
+</html>
