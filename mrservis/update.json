@@ -1,11 +1,11 @@
 {
-  "version": "2.1.1",
+  "version": "2.2.0",
   "date": "2026-10-30",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.1.1/MRservis_2.1.1.zip",
-  "sha256": "691a80f3ca23b6292c086c154b80ab27a9ee30131a508bdd35a3a6f2bbea0a92",
-  "size": 109319447,
-  "notes": "- MRservis Loonar Boshqaruvga ulandi (\uD83E\uDDE9 Dasturlar \u2192 MRservis, kod mrservis): VendorConfig.cs ga ochiq kalit, telemetriya va\r\n  yangilanish manzili (\u2026/loonar-updates/main/mrservis/update.json) Boshqaruv tomonidan yozildi.\r\n- Endi litsenziya tekshiriladi: kalitsiz \u2014 14 kun sinov, keyin Boshqaruv bergan LX1 kalit kerak. Kalitdagi \u00ABTelegram botdan nechta odam\u00BB\r\n  soni MRservis da \u2014 kompyuterlar soni (0 \u2014 cheksiz).\r\n- Holat, kalit so\u0027rovi, murojaat va kompyuter ma\u0027lumoti Boshqaruv kanaliga boradi; \uD83D\uDD14 va yangilanish update.json dan.",
-  "sig": "SRAlj0uu8PuvlQXEeb\u002BCbAyp5\u002BaH5mWqs9ysnMhLrdrqEuYyG/FDV30YlyYczJuRookSKfp5\u002BWFWgXwY7Kc\u002Blw==",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.2.0/MRservis_2.2.0.zip",
+  "sha256": "0056ed29be088ad67e43455c8671ff3c53e7c1e898227bd124cbb7d7b1731fc4",
+  "size": 109319341,
+  "notes": "- Litsenziya: sinov muddati olib tashlandi \u2014 Loonar X ning boshqa dasturlaridagi kabi faqat kalit bilan kiriladi (kalitsiz \u2014 kalit oynasi:\r\n  kompyuter kodi, \u00ABKalit so\u0027rash\u00BB, kalitni kiritish; dasturchi kirishi ishlaydi).\r\n- Admin sarlavhasida Boshqaruv kabi: \u00ABYangilandi 16:05:12\u00BB, \u27F3 (F5) va \u00ABAvto\u00BB \u2014 ochiq hisobot sahifasi (bosh sahifa, qarzdorlar, cheklar,\r\n  hisobotlar, jurnal...) har daqiqada o\u0027zi yangilanadi (yozayotgan bo\u0027lsangiz yoki oyna ochiq bo\u0027lsa \u2014 kutadi).\r\n- Filiallar va tarmoq (admin \u2192 Tizim, ruxsat admin.sync):\r\n  \u2022 Bir joydagi kompyuterlar: asosiy kompyuterni \u00ABTarmoqqa ochish\u00BB (SQL login, Windows Firewall, SQL Browser \u2014 administrator ruxsati bilan),\r\n    login/parol ko\u0027rsatiladi; boshqa kompyuterda \u2699 Baza ulanishi \u2192 \u00ABTarmoqdan qidirish\u00BB.\r\n  \u2022 Uzoq filiallar \u2014 Telegram sinxron boti: har filialning o\u0027z boti, hamma botlar bitta yopiq kanalda. O\u0027zgarishlar har 2 daqiqada paket\r\n    (gzip) bo\u0027lib yuboriladi, boshqa filiallar o\u0027z bazasiga yozadi (yangiroq UpdatedAt yutadi), kelgan ma\u0027lumot qaytib yuborilmaydi,\r\n    har kuni oxirgi 3 kun qayta yuboriladi, \u00ABHammasini qayta yuborish\u00BB. Filial raqami (0 \u2014 asosiy, 1\u20138) \u2014 qabul/chek/qurilma kodlari\r\n    o\u0027z oralig\u0027ida (to\u0027qnashmaydi). Yangi filial asosiy bazaning zahirasidan boshlanadi.\r\n- Loonar Boshqaruvdan \u00ABYangi versiyani chiqarish\u00BB endi MRservis ni ham yasaydi (win-x86 single-file) \u2014 o\u0027zi yangilanishni sinash mumkin.",
+  "sig": "cmlcTP6v1OtHFvVxX4cRFFd/DoPigMG1mh2C4hUylY\u002B/\u002B9HdLkQTtg0MPmzyXh1rV0N2vI\u002BG9PlZ05kFJYsaWA==",
   "news": [],
   "company": {
     "name": "Loonar X",
@@ -101,8 +101,8 @@
   "keys": [],
   "bot": null,
   "filial": null,
-  "SignedText": "2.1.1|691a80f3ca23b6292c086c154b80ab27a9ee30131a508bdd35a3a6f2bbea0a92|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.1.1/MRservis_2.1.1.zip",
-  "Parsed": "2.1.1",
+  "SignedText": "2.2.0|0056ed29be088ad67e43455c8671ff3c53e7c1e898227bd124cbb7d7b1731fc4|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.2.0/MRservis_2.2.0.zip",
+  "Parsed": "2.2.0",
   "IsNewer": true,
   "SignatureValid": false
 }
