@@ -1,0 +1,108 @@
+{
+  "version": "2.1.1",
+  "date": "2026-10-30",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.1.1/MRservis_2.1.1.zip",
+  "sha256": "691a80f3ca23b6292c086c154b80ab27a9ee30131a508bdd35a3a6f2bbea0a92",
+  "size": 109319447,
+  "notes": "- MRservis Loonar Boshqaruvga ulandi (\uD83E\uDDE9 Dasturlar \u2192 MRservis, kod mrservis): VendorConfig.cs ga ochiq kalit, telemetriya va\r\n  yangilanish manzili (\u2026/loonar-updates/main/mrservis/update.json) Boshqaruv tomonidan yozildi.\r\n- Endi litsenziya tekshiriladi: kalitsiz \u2014 14 kun sinov, keyin Boshqaruv bergan LX1 kalit kerak. Kalitdagi \u00ABTelegram botdan nechta odam\u00BB\r\n  soni MRservis da \u2014 kompyuterlar soni (0 \u2014 cheksiz).\r\n- Holat, kalit so\u0027rovi, murojaat va kompyuter ma\u0027lumoti Boshqaruv kanaliga boradi; \uD83D\uDD14 va yangilanish update.json dan.",
+  "sig": "SRAlj0uu8PuvlQXEeb\u002BCbAyp5\u002BaH5mWqs9ysnMhLrdrqEuYyG/FDV30YlyYczJuRookSKfp5\u002BWFWgXwY7Kc\u002Blw==",
+  "news": [],
+  "company": {
+    "name": "Loonar X",
+    "slogan": "Do\u0027kon, kafe va restoranlarni avtomatlashtirish",
+    "about": "Loonar X \u2014 savdo nuqtalarini avtomatlashtirish, POS qurilmalar, kompyuter va POS ta\u0027miri.",
+    "hours": "Du\u2013Pa 09:00\u201318:00 (tushlik 13:00-14:00) \u00B7 Ju 09:00\u201318:00 (tushlik 12:00-14:00) \u00B7 Sha 09:00\u201318:00 (tushlik 13:00-14:00) \u00B7 Yak 10:00\u201316:00 (tushlik 13:00-14:00)",
+    "week": [
+      {
+        "day": 1,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 2,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 3,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 4,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 5,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "12:00-14:00"
+      },
+      {
+        "day": 6,
+        "open": true,
+        "from": "09:00",
+        "to": "18:00",
+        "break": "13:00-14:00"
+      },
+      {
+        "day": 7,
+        "open": true,
+        "from": "10:00",
+        "to": "16:00",
+        "break": "13:00-14:00"
+      }
+    ],
+    "contacts": [
+      {
+        "type": "phone",
+        "label": "Muminmirzo",
+        "value": "\u002B998903610700"
+      },
+      {
+        "type": "phone",
+        "label": "Mirzaolim",
+        "value": "\u002B998200110014"
+      },
+      {
+        "type": "telegram",
+        "label": "",
+        "value": "@loonar_x"
+      },
+      {
+        "type": "address",
+        "label": "",
+        "value": "Qo\u0060qon shaxar Turkiston ko\u0060chasi"
+      }
+    ],
+    "location": {
+      "address": "Qo\u0060qon shaxar Turkiston ko\u0060chasi",
+      "landmark": "",
+      "google": "",
+      "yandex": "",
+      "coords": ""
+    },
+    "qr": "",
+    "qrTitle": "",
+    "logo": "",
+    "updated": "2026-10-16 14:33"
+  },
+  "replies": [],
+  "keys": [],
+  "bot": null,
+  "filial": null,
+  "SignedText": "2.1.1|691a80f3ca23b6292c086c154b80ab27a9ee30131a508bdd35a3a6f2bbea0a92|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.1.1/MRservis_2.1.1.zip",
+  "Parsed": "2.1.1",
+  "IsNewer": true,
+  "SignatureValid": false
+}
