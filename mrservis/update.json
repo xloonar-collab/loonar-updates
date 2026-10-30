@@ -98,7 +98,12 @@
     "updated": "2026-10-16 14:33"
   },
   "replies": [],
-  "keys": [],
+  "keys": [
+    {
+      "to": "260f8af22b3d1130",
+      "d": "xC9ErrWAHR3n/ZjQj2wk/\u002BZYYkUXAouAr3Png1xnIrnxObKPne3k3Sj\u002B9y/MrxLOjM85K0ijYYpn\u002BjZCHffaBZSCyCf/k2VA2vFbGgdxPcl\u002BuBUU0mItyX1R4qXnsy2FuFjF2JSN5o9LBOwfulpI/4CYU1jEdS3xjAPU7bVMZrxuPVNSQNAKoLCqXm/N1\u002BMFSsPt76MFuMg0z3ZRQoaoMauZT8wZK\u002BH7EBTUTU\u002BL0YLq/nTJQPQpx\u002Bb0rbR0xmWMUuGGPc48AI57D60o7g9IM9dNcQY3RzduqV1idU\u002BtQV4OCVHf1AeDjr916MI1WW2Ooj5Q9If/j1TYg/QQiQg44go/ST4CD8bqrtwM5J5yCIVmsjEGxIo4HGxtgfNs9vMx/3yZCb2P2DKWpw=="
+    }
+  ],
   "bot": null,
   "filial": null,
   "SignedText": "2.2.0|0056ed29be088ad67e43455c8671ff3c53e7c1e898227bd124cbb7d7b1731fc4|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.2.0/MRservis_2.2.0.zip",
