@@ -1,11 +1,11 @@
 {
-  "version": "2.2.0",
+  "version": "2.2.1",
   "date": "2026-10-30",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.2.0/MRservis_2.2.0.zip",
-  "sha256": "0056ed29be088ad67e43455c8671ff3c53e7c1e898227bd124cbb7d7b1731fc4",
-  "size": 109319341,
-  "notes": "- Litsenziya: sinov muddati olib tashlandi \u2014 Loonar X ning boshqa dasturlaridagi kabi faqat kalit bilan kiriladi (kalitsiz \u2014 kalit oynasi:\r\n  kompyuter kodi, \u00ABKalit so\u0027rash\u00BB, kalitni kiritish; dasturchi kirishi ishlaydi).\r\n- Admin sarlavhasida Boshqaruv kabi: \u00ABYangilandi 16:05:12\u00BB, \u27F3 (F5) va \u00ABAvto\u00BB \u2014 ochiq hisobot sahifasi (bosh sahifa, qarzdorlar, cheklar,\r\n  hisobotlar, jurnal...) har daqiqada o\u0027zi yangilanadi (yozayotgan bo\u0027lsangiz yoki oyna ochiq bo\u0027lsa \u2014 kutadi).\r\n- Filiallar va tarmoq (admin \u2192 Tizim, ruxsat admin.sync):\r\n  \u2022 Bir joydagi kompyuterlar: asosiy kompyuterni \u00ABTarmoqqa ochish\u00BB (SQL login, Windows Firewall, SQL Browser \u2014 administrator ruxsati bilan),\r\n    login/parol ko\u0027rsatiladi; boshqa kompyuterda \u2699 Baza ulanishi \u2192 \u00ABTarmoqdan qidirish\u00BB.\r\n  \u2022 Uzoq filiallar \u2014 Telegram sinxron boti: har filialning o\u0027z boti, hamma botlar bitta yopiq kanalda. O\u0027zgarishlar har 2 daqiqada paket\r\n    (gzip) bo\u0027lib yuboriladi, boshqa filiallar o\u0027z bazasiga yozadi (yangiroq UpdatedAt yutadi), kelgan ma\u0027lumot qaytib yuborilmaydi,\r\n    har kuni oxirgi 3 kun qayta yuboriladi, \u00ABHammasini qayta yuborish\u00BB. Filial raqami (0 \u2014 asosiy, 1\u20138) \u2014 qabul/chek/qurilma kodlari\r\n    o\u0027z oralig\u0027ida (to\u0027qnashmaydi). Yangi filial asosiy bazaning zahirasidan boshlanadi.\r\n- Loonar Boshqaruvdan \u00ABYangi versiyani chiqarish\u00BB endi MRservis ni ham yasaydi (win-x86 single-file) \u2014 o\u0027zi yangilanishni sinash mumkin.",
-  "sig": "cmlcTP6v1OtHFvVxX4cRFFd/DoPigMG1mh2C4hUylY\u002B/\u002B9HdLkQTtg0MPmzyXh1rV0N2vI\u002BG9PlZ05kFJYsaWA==",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.2.1/MRservis_2.2.1.zip",
+  "sha256": "fee85e014e5a1aa67b22087fd8e14d22d77b98f46b0c18b0b11c9caa0c70077f",
+  "size": 109321387,
+  "notes": "- Loonar X bilan aloqa dastur ochilishi bilan boshlanadi (kirish oynasida ham): kalit so\u0027ralgan bo\u0027lsa \u2014 Loonar X tasdiqlashi bilan kalit o\u0027zi\r\n  o\u0027rnatiladi (litsenziya oynasi ochiq bo\u0027lsa har 20 soniyada tekshiradi va o\u0027zi yopiladi), holat Boshqaruvga darhol boradi.\r\n- Yangi versiya chiqqanda \u2014 \u00ABYangilash\u00BB tugmali xabar; \uD83D\uDD14 bosilganda yangilanish darhol tekshiriladi.\r\n- Dasturchi bo\u0027limida update.json dagi versiya, imzo va \u00AByangimi\u00BB holati ko\u0027rinadi.\r\n- Eslatma: Boshqaruvdagi 2.2.0 relizi o\u0027rnatilgan 2.2.0 bilan bir xil versiya edi \u2014 shuning uchun yangilanish chiqmagan (imzo to\u0027g\u0027ri).",
+  "sig": "ja/WHShhDCmKfPJsQzqWRMWmBpSlilkL1pLhM5MR0odWmkSHf7FCIbROAByTLCXG64TosqwHEhef\u002Bo7KSY6jxw==",
   "news": [],
   "company": {
     "name": "Loonar X",
@@ -101,13 +101,13 @@
   "keys": [
     {
       "to": "260f8af22b3d1130",
-      "d": "SKzGAclx10RMG4QM/fW3K03kswXVxjEBongax/a4G75oli8pLgz5SkC3O6\u002BW0zPZZPOFwDa0xlXzgxtnUefSFEhmynSWZHxDIm87xhlhY6zg9NpJqsZ/Xyq1z3lGPxuhxSDnJNscGCqCRD/wia9sBMjlRI0jKtvZKSulaLR5bQGtcNcIvcCU1NPg10KEPzDfHogdculsDwb4WqCJS0Ed5VxcjOU56BEg8Mt22O9qwfYcXENxAw97KBV6fdBLLjpHvfmAWfTwLWEbOMPC0yU5e4EVxUwM3EgJdb1PWAivMNvNF4PxP1550KB3Oj81hPm8tbF3zqyDO1hoo6XlTK6YmwNXQtQnL6fIQXcgZJkhUl3hhlQoM9/VCe2342rOahtsZIpYY8/WLf3CBg=="
+      "d": "UAq0PAWbrNF7WQlrOiqdrG6UGfFeVAfcs\u002Bsv1soW/LpRJ2S9Bn4J7mxkcXauR9JBNFsSU/dQajtBwDhxmOy7sLy7byYXgO3EMMbS7JfTVHHych6\u002BwxnUZnT8Qk7v6C\u002BnruPiHTDQuPMluv4NoNzLM5lL4NJmd9p3i4XGbi1PgasAzGZ6UjTBXp1POEz1iHMNuQTl479Vi9iasdxrwdfc2HnZshFZ524TDs\u002BspdcHFueVSbaJ\u002BKXIGFlWF/qu2z7pur1t6vqsub0okIr\u002BEpPuIfRNMQHZztxAX9dvPzGV2oh2ovY48ENvhZI9TcdK7DF6uAGEyuXTsdaIs8YA2XN/XM7Ly2CKfEG2OexfOg7UDIjauq4N1JUC04/NaJyUi/YF/uJrM6ui4UH/Ow=="
     }
   ],
   "bot": null,
   "filial": null,
-  "SignedText": "2.2.0|0056ed29be088ad67e43455c8671ff3c53e7c1e898227bd124cbb7d7b1731fc4|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.2.0/MRservis_2.2.0.zip",
-  "Parsed": "2.2.0",
+  "SignedText": "2.2.1|fee85e014e5a1aa67b22087fd8e14d22d77b98f46b0c18b0b11c9caa0c70077f|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.2.1/MRservis_2.2.1.zip",
+  "Parsed": "2.2.1",
   "IsNewer": true,
   "SignatureValid": false
 }
