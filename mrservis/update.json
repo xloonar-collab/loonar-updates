@@ -1,11 +1,11 @@
 {
-  "version": "2.4.1",
+  "version": "2.4.2",
   "date": "2026-10-31",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.4.1/MRservis_2.4.1.zip",
-  "sha256": "36be9e2f6d965e756f7676027b7850327384ff17aa84e91941ccb956c0da737f",
-  "size": 109470440,
-  "notes": "- Kassa / kompyuter endi alohida oynada qo\u0027shiladi va tahrirlanadi: nomi, turi, bo\u0027lim, AnyDesk ID, AnyDesk parol (\uD83D\uDDA5 \u00ABUlanib ko\u0027rish\u00BB),\r\n  Windows, IP, izoh. Obyekt oynasida \u00AB\uFF0B Kassa / AnyDesk\u00BB, qatorni ikki marta bosish yoki \u00AB\u270F Tahrirlash\u00BB; o\u0027ng panelda ham \u00AB\uFF0B Kassa / AnyDesk\u00BB,\r\n  kartochkani ikki marta bosib tahrirlash. (Oldin jadval ichida yozib bo\u0027lmasdi.)\r\n- Mijozlar aralashib ketmaydi: \u00ABMijoz tizimlari\u00BB da mijoz tanlanganda avval \u00ABDastur mijozlari\u00BB guruhi chiqadi (\u00ABHammasi\u00BB \u2014 barcha mijozlar).\r\n  Mijoz yonida \u00AB\uFF0B\u00BB \u2014 yangi mijoz to\u0027g\u0027ridan-to\u0027g\u0027ri shu guruhga qo\u0027shiladi; mijoz tanlash oynasida ham \u00AB\uFF0B\u00BB. Guruhsiz mijoz tanlansa \u2014 shu guruhga o\u0027tadi\r\n  (boshqa guruhdagi mijozga tegilmaydi).\r\n- \u00ABXizmat yozish\u00BB oynasi ham xuddi shunday: mijoz \u00AB\uFF0B\u00BB, obyekt yonida \u00AB\uFF0B\u00BB (yangi obyekt), kassa yonida \u00AB\uFF0B\u00BB (yangi kassa / AnyDesk ID).",
-  "sig": "KM9ZjeiP6gWWBbQNovSxeV9flekX9WsV1DA\u002BzHzYCJNjYzP6dDS5T6bcwmPzvAoDh\u002B\u002BjWOasdLcB3nUe94uQ7Q==",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.4.2/MRservis_2.4.2.zip",
+  "sha256": "b14bc32528e08910056776b49d307e6a3363e2a14b8dd1c009c586bead0722ba",
+  "size": 109474115,
+  "notes": "- Chek konstruktorida yangi tur \u00ABTelegram cheki (QR)\u00BB: kompaniya nomi, sarlavha, izoh, QR, bot nomi, yo\u0027riqnoma, \u00ABbir martalik\u00BB ogohlantirish,\r\n  mijoz, qabul raqami, qurilmalar, sana, pastki matn \u2014 har birini yoqish/o\u0027chirish; yuqori va pastki matn, shrift.\r\n- QR kod o\u0027lchami har chekda sozlanadi (mm, surgich bilan): Telegram cheki (standart 40 mm, oldin ~56 mm edi), qabul / topshirish / sotuv\r\n  chekidagi Telegram QR (standart 28 mm), qabul chekidagi qurilma QR kodi (standart 19 mm). O\u0027ngdagi ko\u0027rinishda darhol o\u0027zgaradi.",
+  "sig": "PJczrQMlHe7Xsjn8pBD1LR471GR\u002B4jXw9/8oNfWD38WKOQy7AHGEwEwNQDp2GnHzIljS3z5ZCciQzv57xPkjjQ==",
   "news": [],
   "company": {
     "name": "Loonar X",
@@ -101,13 +101,13 @@
   "keys": [
     {
       "to": "260f8af22b3d1130",
-      "d": "Kuij0nShEnaTJRR5BBITIFD7MKoWKrDF6SlBcYnZegNA80Nel6kP5QOI4SJuQs9b\u002Bikdn0vl4ERbO7gWyyIHmReMqV073v4InIeeBtxbwDsFeS9WbEmPpvGcNb34QmzqSSU2LffO8zuuXSGPUxSLlYzkKEO3AnMwzY5rPaL5ihWNwvVb2xSfcKabhV/nfDwthnJv5CRMT4/M4WebjZA2CbBXLo9jqKbCQOx4Ifyjpi/3GY9uZtAzdsCJr1VU4ehcYm4xOG\u002B83BLHlxnEBXjQOdsChJ7aUrXVRE6gA4urVNqk2wDlI\u002B8nQEgJwZmzZT8/Xz0bwqAWsNcSCx1gc6rAqnfR4vhfAogDx609v93rUTHPkoexc5AMEBWzIDdy7uW4h7tehxxt\u002BnB/JQ=="
+      "d": "uwbig4dcc84B6oa//GHksY4BziMayQKiCjWtx\u002BKWnee7A1qAlsTPzRPZovs089eP8eICjp0cYdQleQevhkXDwDGKF\u002BmVitbBnM00\u002BOwic1LyzYNig5EbrK88BUlhFVWKorrAL9nBq0LYTcaR7gJ4aIRN\u002Bxls6IUWptL8BSSb3Jup8TogN2PhNQYsTrlrnvrUGc/684IP4fdVaKHz6H/GQ3nUJHC576KF8QfpWXFGDmuUo3Eetl\u002Bj3U5pWo81u3/XPDzl7xn0xTK2Brs0P1xQEKgziEBQjyxCegu1UhUafHhN6XFGT3h4PKH\u002B5ENaRmHDYpk5xeclI8B7H/1g0HG1BT7qEfLU3TyjG5BnM6RkS9qg5nHMaVQ4MgfWSNBqgyaILxDx5/E0aVEx9A=="
     }
   ],
   "bot": null,
   "filial": null,
-  "SignedText": "2.4.1|36be9e2f6d965e756f7676027b7850327384ff17aa84e91941ccb956c0da737f|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.4.1/MRservis_2.4.1.zip",
-  "Parsed": "2.4.1",
+  "SignedText": "2.4.2|b14bc32528e08910056776b49d307e6a3363e2a14b8dd1c009c586bead0722ba|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.4.2/MRservis_2.4.2.zip",
+  "Parsed": "2.4.2",
   "IsNewer": true,
   "SignatureValid": false
 }
