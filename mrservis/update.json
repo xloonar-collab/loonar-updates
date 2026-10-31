@@ -1,11 +1,11 @@
 {
-  "version": "2.2.1",
-  "date": "2026-10-30",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.2.1/MRservis_2.2.1.zip",
-  "sha256": "fee85e014e5a1aa67b22087fd8e14d22d77b98f46b0c18b0b11c9caa0c70077f",
-  "size": 109321387,
-  "notes": "- Loonar X bilan aloqa dastur ochilishi bilan boshlanadi (kirish oynasida ham): kalit so\u0027ralgan bo\u0027lsa \u2014 Loonar X tasdiqlashi bilan kalit o\u0027zi\r\n  o\u0027rnatiladi (litsenziya oynasi ochiq bo\u0027lsa har 20 soniyada tekshiradi va o\u0027zi yopiladi), holat Boshqaruvga darhol boradi.\r\n- Yangi versiya chiqqanda \u2014 \u00ABYangilash\u00BB tugmali xabar; \uD83D\uDD14 bosilganda yangilanish darhol tekshiriladi.\r\n- Dasturchi bo\u0027limida update.json dagi versiya, imzo va \u00AByangimi\u00BB holati ko\u0027rinadi.\r\n- Eslatma: Boshqaruvdagi 2.2.0 relizi o\u0027rnatilgan 2.2.0 bilan bir xil versiya edi \u2014 shuning uchun yangilanish chiqmagan (imzo to\u0027g\u0027ri).",
-  "sig": "ja/WHShhDCmKfPJsQzqWRMWmBpSlilkL1pLhM5MR0odWmkSHf7FCIbROAByTLCXG64TosqwHEhef\u002Bo7KSY6jxw==",
+  "version": "2.3.0",
+  "date": "2026-10-31",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.3.0/MRservis_2.3.0.zip",
+  "sha256": "a50ced019e080ff497059a61c0d28b2ae3b2388f8b2e43cc026afbbfe65feb22",
+  "size": 109372518,
+  "notes": "- Yangi bo\u0027lim \u00ABMijoz tizimlari\u00BB (admin \u2014 Asosiy; POS \u2014 \u00ABMijozlar va kassa\u00BB plitkasi; ruxsat clients.systems):\r\n  \u2022 Mijozlarga sotilgan dasturlar \u2014 har dastur o\u0027z bo\u0027limi (chiplar: Loonar Hisobot, MrClub, MRservis, Ombor... \u00AB\uFF0B Dastur\u00BB bilan yangisi),\r\n    obyekt: mijoz, do\u0027kon nomi, manzil, sotilgan sana, narx, versiya, litsenziya kaliti, qo\u0027llab-quvvatlash muddati (\u002B1 yil), izoh.\r\n  \u2022 Kassalar / kompyuterlar jadvali: nomi, turi (kassa/server/ofis), qaysi bo\u0027lim / kirim (prihod) nuqtasi, AnyDesk ID va paroli, Windows, IP, izoh;\r\n    \u00AB\uFF0B Kassa\u00BB (bo\u0027limni oldingisidan oladi). O\u0027ng panelda kassalar kartochkalari va \u00ABUlanish\u00BB \u2014 AnyDesk darhol ochiladi (parol bilan).\r\n  \u2022 Qidiruv: mijoz, telefon, obyekt, manzil, AnyDesk, IP bo\u0027yicha.\r\n  \u2022 \u00ABXizmatlar va eslatmalar\u00BB: Windows o\u0027rnatish, dastur o\u0027rnatish, ta\u0027mir, profilaktika... (turlar ro\u0027yxati \u00AB\uFF0B\u00BB bilan), sana, narx, qaysi obyekt/kassa.\r\n    Eslatma: turiga qarab avtomatik (Windows o\u0027rnatish \u2014 1 yil, ta\u0027mir/profilaktika \u2014 6 oy), tez tugmalar 3 oy / 6 oy / 1 yil / 2 yil yoki sana.\r\n- Eslatmalar \u00ABEslatmalar\u00BB sahifasida (\u00ABMijoz tizimlari\u00BB varag\u0027i); muddati kelganda Telegram botda xodimlarga (\u2699 Sozlamalar \u2192 \u00ABEslatmalar\u00BB)\r\n  va \u00ABmijozga ham\u00BB belgilangan bo\u0027lsa \u2014 aktiv mijozning o\u0027ziga. Litsenziya muddati tugashidan 7 kun oldin ham eslatadi.\r\n- Botda aktiv mijozga \u00AB\uD83D\uDCBB Tizimlarim\u00BB: dasturlari, kassalar soni, muddat, oxirgi xizmatlar (parollarsiz).",
+  "sig": "\u002B8aFGkdAJh40OFW8aUI7w4lxvuGhJumsJVkT2fo1NIUFHCbnuTWLTbc9YGE9OKeTXoOhbvXLZHSaXmZ0ElC5Tw==",
   "news": [],
   "company": {
     "name": "Loonar X",
@@ -101,13 +101,13 @@
   "keys": [
     {
       "to": "260f8af22b3d1130",
-      "d": "UAq0PAWbrNF7WQlrOiqdrG6UGfFeVAfcs\u002Bsv1soW/LpRJ2S9Bn4J7mxkcXauR9JBNFsSU/dQajtBwDhxmOy7sLy7byYXgO3EMMbS7JfTVHHych6\u002BwxnUZnT8Qk7v6C\u002BnruPiHTDQuPMluv4NoNzLM5lL4NJmd9p3i4XGbi1PgasAzGZ6UjTBXp1POEz1iHMNuQTl479Vi9iasdxrwdfc2HnZshFZ524TDs\u002BspdcHFueVSbaJ\u002BKXIGFlWF/qu2z7pur1t6vqsub0okIr\u002BEpPuIfRNMQHZztxAX9dvPzGV2oh2ovY48ENvhZI9TcdK7DF6uAGEyuXTsdaIs8YA2XN/XM7Ly2CKfEG2OexfOg7UDIjauq4N1JUC04/NaJyUi/YF/uJrM6ui4UH/Ow=="
+      "d": "ElSgdqyKPdRy7QNk4NkN/lg4KKIa2RG\u002BKl77ZWKgZvQBk4x3v0mlu3BOt3Yi7aQn\u002B7DX3N//lyd4qBf4N6A7Jhc2\u002BEsIDy6b2gTZm5Fhp\u002BH7nTDczW8SG6RWfbQbStZOBbQNrUektjdD36y7lf7ahfTQBScuxwA6UM2i7drS1qY8hDXH9yMOV79KYHL7GdmhajvLWd8WD8pGSRgzzXT2/aJ\u002BlPMiSTNx31ucofqWfWNtI1OPs\u002B5\u002BlSnLQFXNEGn4fl/l7DLg\u002B25hNs81LWl56Nv/pSelXOxmF9F7bOp70CQVsGdmj38h8XD\u002B8oIvNQ8mx\u002BwO1lhXY20flAwBab2sNjR5IYeCZwtWhXV8evdaRs6bZh9EDquXhgaqaH3nLtUcQ5fUQ7YKFvMlng=="
     }
   ],
   "bot": null,
   "filial": null,
-  "SignedText": "2.2.1|fee85e014e5a1aa67b22087fd8e14d22d77b98f46b0c18b0b11c9caa0c70077f|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.2.1/MRservis_2.2.1.zip",
-  "Parsed": "2.2.1",
+  "SignedText": "2.3.0|a50ced019e080ff497059a61c0d28b2ae3b2388f8b2e43cc026afbbfe65feb22|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.3.0/MRservis_2.3.0.zip",
+  "Parsed": "2.3.0",
   "IsNewer": true,
   "SignatureValid": false
 }
