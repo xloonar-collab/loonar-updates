@@ -1,11 +1,11 @@
 {
-  "version": "2.4.0",
+  "version": "2.4.1",
   "date": "2026-10-31",
-  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.4.0/MRservis_2.4.0.zip",
-  "sha256": "d444f286a60afed1c644a8f18ab4c147b272ccefc0b50712e21e7cb624dd2923",
-  "size": 109462343,
-  "notes": "- \uD83C\uDF10 Uzoq filiallar endi ID orqali ulanadi (Loonar Hisobot onlayn rejimi kabi) \u2014 bot ochish, kanal, token kerak emas:\r\n  \u2022 Asosiy: MRservis (admin) \u2192 Filiallar va tarmoq \u2192 \u00ABFiliallarni qabul qilish\u00BB \u2192 ID ko\u0027rsatiladi (litsenziyadagi Mijoz ID).\r\n  \u2022 Filial: o\u0027rnatishda \u00AB\uD83C\uDF10 Uzoqdagi asosiy MRservis ga internet orqali ulanish (ID bilan)\u00BB yoki keyin \u00ABAsosiyga ulanish\u00BB \u2192 ID va filial nomi.\r\n  \u2022 So\u0027rov asosiyga keladi: \uD83D\uDD14 (qo\u0027ng\u0027iroqchada son), xabar va Telegram botda xodimlarga \u2192 \u00ABQabul qilish\u00BB / \u00ABRad etish\u00BB.\r\n  \u2022 Qabul qilinganda asosiy hamma ma\u0027lumotni yuboradi; yangi filial bazasidagi boshlang\u0027ich ro\u0027yxatlar o\u0027chirilib asosiydagilar olinadi,\r\n    dastur qayta ochiladi \u2014 keyin asosiydagi login va parol bilan kiriladi. Keyin har 3 daqiqada ikki tomonlama sinxron.\r\n  \u2022 Hamma ma\u0027lumot shifrlangan (tarmoq kaliti faqat ulangan kompyuterlarda). Filialni tarmoqdan chiqarish, \u00ABHammasini qayta yuborish\u00BB.\r\n  \u2022 Sinxron MRservis yoki MRservis POS ochiq turganda ishlaydi (shu kompyuterda bitta jarayon).\r\n  \u2022 Eski \u00ABhar filialga alohida bot\u00BB usuli olib tashlandi.\r\n- O\u0027rnatuvchi: \u00ABQanday ishlaydi\u00BB \u2014 shu kompyuterda baza / shu binodagi asosiyga ulanish (mahalliy tarmoq, server qidirish, SQL login) /\r\n  internet orqali ID bilan.\r\n- \u2139 Loonar X oynasi (POS va admin sarlavhasida \u2139): kompaniya ma\u0027lumoti, dastur ma\u0027lumoti, Loonar X ga yozish (taklif, muammo, savol)\r\n  va Loonar X dan kelgan xabarlar \u2014 Hisobotdagi kabi.\r\n- Boshqaruvda MRservis POS va MRservis (admin) alohida qatorda ko\u0027rinadi (POS-1, POS-2... va filial nomi bilan).\r\n- \uD83E\uDD16 Bot sozlamalari Loonar X Boshqaruvdan (\uD83E\uDD16 Botlar \u2192 MRservis): xodim va mijoz tugmalari (tartib, yoqilgan, qatorda nechta),\r\n  /start matni, \u00ABBiz haqimizda\u00BB matni. Admin \u2192 Telegram bot da ham \u00ABBiz haqimizda\u00BB, /start matni va ish vaqti kiritiladi \u2014\r\n  \u00AB\u260E Bog\u0027lanish\u00BB endi bo\u0027sh emas (manzil, telefon, ish vaqti, matn).",
-  "sig": "YDi6woQ0k9phFw0IjplEuFysRVFqhvj1psLpjM2/o6r8/ZEU0iccTHiewW6caJSJTk6VuDrWOIGSPH5Abms4VA==",
+  "url": "https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.4.1/MRservis_2.4.1.zip",
+  "sha256": "36be9e2f6d965e756f7676027b7850327384ff17aa84e91941ccb956c0da737f",
+  "size": 109470440,
+  "notes": "- Kassa / kompyuter endi alohida oynada qo\u0027shiladi va tahrirlanadi: nomi, turi, bo\u0027lim, AnyDesk ID, AnyDesk parol (\uD83D\uDDA5 \u00ABUlanib ko\u0027rish\u00BB),\r\n  Windows, IP, izoh. Obyekt oynasida \u00AB\uFF0B Kassa / AnyDesk\u00BB, qatorni ikki marta bosish yoki \u00AB\u270F Tahrirlash\u00BB; o\u0027ng panelda ham \u00AB\uFF0B Kassa / AnyDesk\u00BB,\r\n  kartochkani ikki marta bosib tahrirlash. (Oldin jadval ichida yozib bo\u0027lmasdi.)\r\n- Mijozlar aralashib ketmaydi: \u00ABMijoz tizimlari\u00BB da mijoz tanlanganda avval \u00ABDastur mijozlari\u00BB guruhi chiqadi (\u00ABHammasi\u00BB \u2014 barcha mijozlar).\r\n  Mijoz yonida \u00AB\uFF0B\u00BB \u2014 yangi mijoz to\u0027g\u0027ridan-to\u0027g\u0027ri shu guruhga qo\u0027shiladi; mijoz tanlash oynasida ham \u00AB\uFF0B\u00BB. Guruhsiz mijoz tanlansa \u2014 shu guruhga o\u0027tadi\r\n  (boshqa guruhdagi mijozga tegilmaydi).\r\n- \u00ABXizmat yozish\u00BB oynasi ham xuddi shunday: mijoz \u00AB\uFF0B\u00BB, obyekt yonida \u00AB\uFF0B\u00BB (yangi obyekt), kassa yonida \u00AB\uFF0B\u00BB (yangi kassa / AnyDesk ID).",
+  "sig": "KM9ZjeiP6gWWBbQNovSxeV9flekX9WsV1DA\u002BzHzYCJNjYzP6dDS5T6bcwmPzvAoDh\u002B\u002BjWOasdLcB3nUe94uQ7Q==",
   "news": [],
   "company": {
     "name": "Loonar X",
@@ -101,13 +101,13 @@
   "keys": [
     {
       "to": "260f8af22b3d1130",
-      "d": "fRKlDYUdhMlH09UMV7GAdTeB3szs6S19Zviute3AsJ4yjgUit8SCEP57tv\u002BjxnKKkBcxq/vKgvguHw3hvj5TTXjv2Kx5ajabKF39qaeY5fXwGX718QVDD/5CEMn45J8mloGbf\u002B4Vr9Bsh42wU//kw09UPqzifU/Os3VM3lXzPdGIsRoF1lsHxRbtunAMn\u002B8WEE1fq6BrcuJ36rThGGCQIYXS66flbnl99wztV8\u002B2yX5rY1Fe7qq2yzrQ0b5WMICZPTU0YOUjBvd8f4FUP5BwbyG\u002BWfPuGzHWjFz5IUNrrPN3KWbjDJYVDi5c0Ev9kUlhc\u002ByqiFk/OD/\u002BxK44qGLnAnWYtsSOvTSaVA19Anrb5DxPQhkX9u3e2H5rCQ/4x7tUybSDqiSkkFmHnw=="
+      "d": "Kuij0nShEnaTJRR5BBITIFD7MKoWKrDF6SlBcYnZegNA80Nel6kP5QOI4SJuQs9b\u002Bikdn0vl4ERbO7gWyyIHmReMqV073v4InIeeBtxbwDsFeS9WbEmPpvGcNb34QmzqSSU2LffO8zuuXSGPUxSLlYzkKEO3AnMwzY5rPaL5ihWNwvVb2xSfcKabhV/nfDwthnJv5CRMT4/M4WebjZA2CbBXLo9jqKbCQOx4Ifyjpi/3GY9uZtAzdsCJr1VU4ehcYm4xOG\u002B83BLHlxnEBXjQOdsChJ7aUrXVRE6gA4urVNqk2wDlI\u002B8nQEgJwZmzZT8/Xz0bwqAWsNcSCx1gc6rAqnfR4vhfAogDx609v93rUTHPkoexc5AMEBWzIDdy7uW4h7tehxxt\u002BnB/JQ=="
     }
   ],
   "bot": null,
   "filial": null,
-  "SignedText": "2.4.0|d444f286a60afed1c644a8f18ab4c147b272ccefc0b50712e21e7cb624dd2923|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.4.0/MRservis_2.4.0.zip",
-  "Parsed": "2.4.0",
+  "SignedText": "2.4.1|36be9e2f6d965e756f7676027b7850327384ff17aa84e91941ccb956c0da737f|https://github.com/xloonar-collab/loonar-updates/releases/download/mrservis-v2.4.1/MRservis_2.4.1.zip",
+  "Parsed": "2.4.1",
   "IsNewer": true,
   "SignatureValid": false
 }
